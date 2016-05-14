@@ -1,7 +1,14 @@
 html, body {
-  font-family: "Inconsolata", "Monaco", "Consolas", "Courier New", "Courier";
+  font-family: "Menlo", "Inconsolata", "Monaco", "Consolas", "Courier New", "Courier", "monospace", "serif";
   font-size: 24px;
   font-weight: 200;
+  margin-left: 10px;
+  color: white;
+}
+
+div {
+    display:flex;
+    align-items:center;
 }
 
 span.keyword {
@@ -26,4 +33,44 @@ span.string {
 
 span.comment {
   color: #52AF55;
+}
+
+span.obj {
+  color: #94C66F;
+}
+
+span.prop {
+  color: #688790;
+}
+
+a:link, a:visited {
+  color: #688790;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #6887AA;
+  text-decoration: none;
+}
+
+span.title {
+  font-size: 36px;
+  color: #cc9966;
+}
+
+span.giffy {
+  font-family: "AvenirNext-DemiBold";
+  font-size: 30px;
+  color: white;
+  margin-left: 10px;
+}
+
+span.post {
+  font-family: -apple-system, BlinkMacSystemFont,
+  "Helvetica Neue", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+  "Fira Sans", "Droid Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  margin-left: 10px;
 }

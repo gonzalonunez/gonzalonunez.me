@@ -7,7 +7,7 @@
 </head>
 <body style="background-color:#292B37">
   <p>
-    <span class="print">print</span><span class="name">(</span><span class="string">"Hey!"</span><span class="name">)
+    <span class="print">print</span><span class="name">(</span><span class="string">"Hello!"</span><span class="name">)
     <br>
     <br>
     <span class="keyword">let </span><span class="name">name = </span><span class="string">"Gonzalo Nuñez"</span>
@@ -24,6 +24,25 @@
     <br>
     <span class="name">}
   </p>
-  <p> <span class="comment">// Apps </p>
+  <p> <span class ="comment"><br>/*----------------------*/</span><br><br></p>
+  <p> <span class="title">Apps</span><br><br></p>
+  <div>
+    <%= image_tag("Giffy.png", size: "60x60", alt: "Giffy")%><span class="giffy">Giffy</span>
+  </div>
+  <p>
+  <span class="keyword">let </span><span class="name">giffy = </span><span class="obj">App</span><span class="name">(name:</span><span class="string">"Giffy"</span><span class="name">)</span>
+  <br>
+  <span class="name">giffy</span><a href="https://appsto.re/us/gSgd2.i" target="_blank">.learnMore</a><span class="name">()</span>
+  <br>
+  <br>
+  </p>
+  <div>
+    <%= image_tag("Post.png", size: "60x60", alt: "Post")%><span class="post">Post</span>
+  </div>
+  <p>
+  <span class="keyword">let </span><span class="name">post = </span><span class="obj">App</span><span class="name">(name:</span><span class="string">"Post"</span><span class="name">)</span>
+  <br>
+  <span class="name">post</span><a href="https://post-mailbox.herokuapp.com" target="_blank">.learnMore</a><span class="name">()</span>
+  </p>
 </body>
 </html>
