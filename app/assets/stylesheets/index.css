@@ -1,0 +1,29 @@
+html, body {
+  font-family: "Inconsolata", "Monaco", "Consolas", "Courier New", "Courier";
+  font-size: 24px;
+  font-weight: 200;
+}
+
+span.keyword {
+  color: #b43d94;
+}
+
+span.print {
+  color: #00AAA4;
+}
+
+span.case {
+  margin-left: 2em;
+}
+
+span.name {
+  color: white;
+}
+
+span.string {
+  color: #dc3b3b;
+}
+
+span.comment {
+  color: #52AF55;
+}
