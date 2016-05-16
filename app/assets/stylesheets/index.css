@@ -1,14 +1,14 @@
 html, body {
   font-family: "Menlo", "Inconsolata", "Monaco", "Consolas", "Courier New", "Courier", "monospace", "serif";
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 200;
-  margin-left: 10px;
+  margin-left: 8px;
   color: white;
 }
 
 div {
-    display:flex;
-    align-items:center;
+  display:flex;
+  align-items:center;
 }
 
 span.keyword {
@@ -60,17 +60,37 @@ span.title {
 
 span.giffy {
   font-family: "AvenirNext-DemiBold";
-  font-size: 30px;
+  font-size: 22px;
   color: white;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 span.post {
   font-family: -apple-system, BlinkMacSystemFont,
   "Helvetica Neue", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
   "Fira Sans", "Droid Sans", sans-serif;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 600;
   color: white;
-  margin-left: 10px;
+  margin-left: 8px;
+}
+
+/* For non-mobile devices: */
+@media only screen and (min-width: 768px) {
+
+  html, body {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+  span.giffy {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+  span.post {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
 }
