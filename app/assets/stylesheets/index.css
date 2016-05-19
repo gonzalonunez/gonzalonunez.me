@@ -43,10 +43,6 @@ span.prop {
   color: #688790;
 }
 
-span.small {
-  font-size: 15px;
-}
-
 a:link, a:visited {
   color: #688790;
   text-decoration: none;
@@ -71,10 +67,6 @@ a.title {
   font-size: 27px;
   color: #cc9966;
   text-decoration: none;
-}
-
-a.small {
-  font-size: 15px;
 }
 
 span.title {
@@ -118,14 +110,6 @@ span.sub {
   html, body {
     font-size: 24px;
     margin-left: 6px;
-  }
-
-  span.small {
-    font-size: 24px;
-  }
-
-  a.small {
-    font-size: 24px;
   }
 
   span.case {
