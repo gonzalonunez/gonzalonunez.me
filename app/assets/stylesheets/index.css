@@ -1,8 +1,8 @@
 html, body {
   font-family: "Menlo", "Inconsolata", "Monaco", "Consolas", "Courier New", "Courier", "monospace", "serif";
   font-weight: 200;
-  font-size: 16px;
-  margin-left: 8px;
+  font-size: 18px;
+  margin-left: 4px;
   color: white;
 }
 
@@ -20,7 +20,7 @@ span.print {
 }
 
 span.case {
-  margin-left: 2em;
+  margin-left: 6px;
 }
 
 span.name {
@@ -109,26 +109,30 @@ span.sub {
 
   html, body {
     font-size: 24px;
-    margin-left: 10px;
+    margin-left: 6px;
+  }
+
+  span.case {
+    margin-left: 8px;
   }
 
   span.giffy {
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 6px;
   }
 
   span.post {
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 6px;
   }
 
   span.sportody {
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 6px;
   }
 
   span.sub {
-    margin-left: 10px;
+    margin-left: 6px;
   }
 
   a.title {
