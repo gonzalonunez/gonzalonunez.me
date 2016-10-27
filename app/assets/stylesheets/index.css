@@ -43,6 +43,10 @@ span.prop {
   color: #688790;
 }
 
+span.link {
+  color: #688790;
+}
+
 a:link, a:visited {
   color: #688790;
   text-decoration: none;
@@ -74,18 +78,8 @@ span.title {
   color: #cc9966;
 }
 
-span.giffy {
+span.app {
   font-family: "AvenirNext-DemiBold";
-  font-size: 22px;
-  color: white;
-  margin-left: 8px;
-}
-
-span.post {
-  font-family: -apple-system, BlinkMacSystemFont,
-  "Helvetica Neue", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-  "Fira Sans", "Droid Sans", sans-serif;
-  font-weight: 600;
   font-size: 22px;
   color: white;
   margin-left: 8px;
@@ -116,12 +110,7 @@ span.sub {
     margin-left: 1em;
   }
 
-  span.giffy {
-    font-size: 30px;
-    margin-left: 6px;
-  }
-
-  span.post {
+  span.app {
     font-size: 30px;
     margin-left: 6px;
   }
