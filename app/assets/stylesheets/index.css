@@ -54,7 +54,6 @@ a:link, a:visited {
 
 a:hover, a:active {
   color: #6887AA;
-  text-decoration: none;
 }
 
 a.method:link, a.method:visited {
@@ -64,7 +63,6 @@ a.method:link, a.method:visited {
 
 a.method:hover, a.method:active {
   color: #94C6AA;
-  text-decoration: none;
 }
 
 a.title {
