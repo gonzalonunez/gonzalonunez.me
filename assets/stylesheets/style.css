@@ -51,7 +51,7 @@ c1 {
   transition: all 300ms ease;
 }
 
-.github_button:hover {
+.github_button:hover, .github_button:active {
   background-image: url(../images/github_black.png);
 }
 
@@ -65,7 +65,7 @@ c1 {
   transition: all 300ms ease;
 }
 
-.medium_button:hover {
+.medium_button:hover, .medium_button:active {
   background-image: url(../images/medium_green.png);
 }
 
@@ -80,7 +80,7 @@ c1 {
   transition: all 300ms ease;
 }
 
-.twitter_button:hover {
+.twitter_button:hover, .twitter_button:active {
   background-image: url(../images/twitter_blue.png);
 }
 
@@ -95,7 +95,7 @@ c1 {
   transition: all 300ms ease;
 }
 
-.linkedin_button:hover {
+.linkedin_button:hover, .linkedin_button:active {
   background-image: url(../images/linkedin_blue.png);
 }
 
@@ -142,6 +142,13 @@ c1 {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+/* For mobile-only devices */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+/* For non-mobile devices */
 @media only screen and (min-width: 768px) {
 
   h1 {
