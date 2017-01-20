@@ -51,7 +51,7 @@ c1 {
   transition: all 300ms ease;
 }
 
-.github_button:hover, .github_button:active {
+.github_button:hover, .github_button:focus {
   background-image: url(../images/github_black.png);
 }
 
@@ -65,7 +65,7 @@ c1 {
   transition: all 300ms ease;
 }
 
-.medium_button:hover, .medium_button:active {
+.medium_button:hover, .medium_button:focus {
   background-image: url(../images/medium_green.png);
 }
 
@@ -80,7 +80,7 @@ c1 {
   transition: all 300ms ease;
 }
 
-.twitter_button:hover, .twitter_button:active {
+.twitter_button:hover, .twitter_button:focus {
   background-image: url(../images/twitter_blue.png);
 }
 
@@ -95,11 +95,12 @@ c1 {
   transition: all 300ms ease;
 }
 
-.linkedin_button:hover, .linkedin_button:active {
+.linkedin_button:hover, .linkedin_button:focus {
   background-image: url(../images/linkedin_blue.png);
 }
 
 .g-button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   background-position: center;
   display: block;
   color: white;
