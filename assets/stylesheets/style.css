@@ -41,7 +41,7 @@ c1 {
 /* Social Buttons */
 
 .github_button {
-  margin-left: 18px;
+  margin-left: 19px;
   width: 36px;
   height: 36px;
   background-size: 70%;
@@ -85,6 +85,7 @@ c1 {
 }
 
 .linkedin_button {
+  margin-left: -2px;
   width: 36px;
   height: 36px;
   background-size: 70%;
