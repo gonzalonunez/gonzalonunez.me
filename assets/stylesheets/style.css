@@ -46,6 +46,10 @@ c2 {
   font-style: normal;
 }
 
+sup {
+  font-size: 10px;
+}
+
 a {
   border: 0;
 }
