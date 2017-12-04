@@ -191,6 +191,7 @@ a:hover, a:active {
   margin-top: 0;
   margin-right: 16px;
   padding: 0px;
+  -webkit-transform: translateZ(0);
 }
 
 /* For non-mobile devices */
