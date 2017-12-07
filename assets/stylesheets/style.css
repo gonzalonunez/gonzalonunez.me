@@ -3,6 +3,12 @@ body {
   margin: 0;
 }
 
+body:after {
+    z-index: -1;
+    visibility: hidden;
+    content: url(../images/github_black.png) url(../images/medium_green.png) url(../images/twitter_blue.png) url(../images/linkedin_blue.png);
+}
+
 h1 {
   color: #4a4a4a;
   font-size: 34px;
