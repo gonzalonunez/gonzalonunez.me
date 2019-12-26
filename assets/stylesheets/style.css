@@ -16,27 +16,9 @@ h1 {
   margin-right: 0px;
   -webkit-margin-start: 24px;
   -webkit-margin-after: 0px;
-}
-
-h2 {
-  color: #4a4a4a;
-  font-size: 24px;
-  margin-left: 24px;
-  margin-right: 0px;
-  -webkit-margin-start: 24px;
-  -webkit-margin-after: 0px;
-}
-
-h3 {
-  color: #FFF;
-  font-size: 32px;
-  margin-top: 18px;
-  margin-bottom: 8px;
-  margin-left: 24px;
-  margin-right: 0px;
-  -webkit-margin-start: 24px;
-  -webkit-margin-after: 0px;
-  float: left;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 c1 {
@@ -47,6 +29,9 @@ c1 {
   margin-right: 28px;
   -webkit-margin-start: 28px;
   -webkit-margin-after: 28px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 c2 {
@@ -62,6 +47,27 @@ c2 {
   -webkit-margin-after: 28px;
   max-width: 500px;
   line-height: 150%;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+c3 {
+  color: #333;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: 1.4em;
+  margin-top: 0px;
+  margin-left: 28px;
+  margin-right: 28px;
+  -webkit-margin-start: 28px;
+  -webkit-margin-after: 28px;
+  max-width: 500px;
+  line-height: 150%;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 sup {
@@ -215,7 +221,7 @@ a:hover, a:active {
     -webkit-margin-start: 64px;
   }
 
-  c1, c2 {
+  c1, c2, c3 {
     font-size: 16px;
     margin-left: 64px;
     -webkit-margin-start: 64px;
