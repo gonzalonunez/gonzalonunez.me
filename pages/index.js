@@ -21,7 +21,7 @@ export default function Home() {
           <Row>
             <SocialLink href="https://twitter.com/gonzalo__nunez" target="blank">Twitter</SocialLink>
             <SocialLink href="https://github.com/gonzalonunez" target="blank">GitHub</SocialLink>
-            <SocialLink href="https://blog.gonzalonunez.me" target="blank">Medium</SocialLink>
+            <SocialLink href="https://medium.com/@gonzalo__nunez" target="blank">Medium</SocialLink>
             <SocialLink href="https://www.linkedin.com/in/gbn100/" target="blank">LinkedIn</SocialLink>
           </Row>
         </Main>
