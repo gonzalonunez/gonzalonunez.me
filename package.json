@@ -1,0 +1,25 @@
+{
+  "name": "gonzalonunez.me",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.1",
+    "swr": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalonunez/gonzalonunez.github.io.git"
+  }
+}
