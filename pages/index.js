@@ -4,6 +4,9 @@ import styled from 'styled-components';
 export default function Home() {
   return (
     <div>
+      <Head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Container>
         <Main>
           <EmojiIcon>👋</EmojiIcon>
