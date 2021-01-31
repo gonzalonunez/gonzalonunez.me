@@ -11,7 +11,7 @@ export default function Home() {
         <Main>
           <EmojiIcon>👋</EmojiIcon>
           <Title>Hi! I'm Gonzalo.</Title>
-          <Subtitle>I think of things and try to build them</Subtitle>
+          <Subtitle>I think about engineering, art, startups, and philosophy.</Subtitle>
           <BulletedList>
             <Bullet>
               📚 Founding Mobile Engineer at <InlineLink href="https://withprimer.com" target="blank">Primer</InlineLink>
@@ -25,7 +25,6 @@ export default function Home() {
             <SocialLink href="https://twitter.com/gonzalo__nunez" target="blank">Twitter</SocialLink>
             <SocialLink href="https://github.com/gonzalonunez" target="blank">GitHub</SocialLink>
             <SocialLink href="https://medium.com/@gonzalo__nunez" target="blank">Medium</SocialLink>
-            <SocialLink href="https://www.linkedin.com/in/gbn100/" target="blank">LinkedIn</SocialLink>
           </Row>
         </Main>
       </Container>
