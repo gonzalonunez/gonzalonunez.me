@@ -13,13 +13,9 @@ export default function Home() {
           <Title>Hi! I'm Gonzalo.</Title>
           <Subtitle>I think about engineering, art, startups, and philosophy.</Subtitle>
           <BulletedList>
-            <Bullet>
-              📚 Founding Mobile Engineer at <InlineLink href="https://withprimer.com" target="blank">Primer</InlineLink>
-            </Bullet>
-            <Bullet>
-              💌 Building <InlineLink href="https://withpost.app" target="blank">Post</InlineLink> on nights and weekends
-            </Bullet>
-            <Bullet>📍 Living in San Francisco, CA</Bullet>
+            <PrimerBullet>Founding Mobile Engineer at <InlineLink href="https://withprimer.com" target="blank">Primer</InlineLink></PrimerBullet>
+            <PostBullet>Building <InlineLink href="https://withpost.app" target="blank">Post</InlineLink> on nights and weekends</PostBullet>
+            <LocationBullet>Living in San Francisco, CA</LocationBullet>
           </BulletedList>
           <Row>
             <SocialLink href="https://twitter.com/gonzalo__nunez" target="blank">Twitter</SocialLink>
@@ -70,6 +66,8 @@ const Main = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
+  margin-left: 24px;
+  margin-right: 24px;
   justify-content: center;
 `;
 
@@ -101,7 +99,7 @@ const Subtitle = styled.p`
   text-align: left;
 `
 
-const BulletedList = styled.div`
+const BulletedList = styled.ul`
   align-items: left;
   display: flex;
   flex: none;
@@ -111,7 +109,7 @@ const BulletedList = styled.div`
   margin-bottom: 0px;
 `
 
-const Bullet = styled.p`
+const Bullet = styled.li`
   color: #000000;
   font-family: OpenSans;
   font-size: 16px;
@@ -119,6 +117,18 @@ const Bullet = styled.p`
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: left;
+`
+
+const PrimerBullet = styled(Bullet)`
+  list-style-type: "📚";
+`
+
+const PostBullet = styled(Bullet)`
+  list-style-type: "💌";
+`
+
+const LocationBullet = styled(Bullet)`
+  list-style-type: "📍";
 `
 
 const InlineLink = styled.a`
