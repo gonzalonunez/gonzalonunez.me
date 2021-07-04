@@ -14,7 +14,6 @@ export default function Home() {
           <Subtitle>I think about engineering, art, startups, and philosophy.</Subtitle>
           <BulletedList>
             <PrimerBullet>Founding Mobile Engineer at <InlineLink href="https://withprimer.com" target="blank">Primer</InlineLink></PrimerBullet>
-            <PostBullet>Building <InlineLink href="https://withpost.app" target="blank">Post</InlineLink> on nights and weekends</PostBullet>
             <LocationBullet>Living in San Francisco, CA</LocationBullet>
           </BulletedList>
           <Row>
@@ -121,10 +120,6 @@ const Bullet = styled.li`
 
 const PrimerBullet = styled(Bullet)`
   list-style-type: "📚";
-`
-
-const PostBullet = styled(Bullet)`
-  list-style-type: "💌";
 `
 
 const LocationBullet = styled(Bullet)`
