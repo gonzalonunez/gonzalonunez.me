@@ -19,7 +19,7 @@ export default function Home() {
           <Row>
             <SocialLink href="https://twitter.com/gonzalo__nunez" target="blank">Twitter</SocialLink>
             <SocialLink href="https://github.com/gonzalonunez" target="blank">GitHub</SocialLink>
-            <SocialLink href="https://medium.com/@gonzalo__nunez" target="blank">Medium</SocialLink>
+            <SocialLink href="https://gonzalonunez.substack.com" target="blank">A Work in Progress</SocialLink>
           </Row>
         </Main>
       </Container>
