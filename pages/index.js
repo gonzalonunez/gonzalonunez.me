@@ -14,12 +14,12 @@ export default function Home() {
           <Subtitle>I think about engineering, art, startups, and philosophy.</Subtitle>
           <BulletedList>
             <PrimerBullet>Founding Mobile Engineer at <InlineLink href="https://withprimer.com" target="blank">Primer</InlineLink></PrimerBullet>
+            <SubstackBullet>Thinking out loud at <InlineLink href="https://gonzalonunez.substack.com" target="blank">A Work in Progress</InlineLink></SubstackBullet>
             <LocationBullet>Living in San Francisco, CA</LocationBullet>
           </BulletedList>
           <Row>
             <SocialLink href="https://twitter.com/gonzalo__nunez" target="blank">Twitter</SocialLink>
             <SocialLink href="https://github.com/gonzalonunez" target="blank">GitHub</SocialLink>
-            <SocialLink href="https://medium.com/@gonzalo__nunez" target="blank">Medium</SocialLink>
           </Row>
         </Main>
       </Container>
@@ -120,6 +120,10 @@ const Bullet = styled.li`
 
 const PrimerBullet = styled(Bullet)`
   list-style-type: "📚";
+`
+
+const SubstackBullet = styled(Bullet)`
+  list-style-type: "📜";
 `
 
 const LocationBullet = styled(Bullet)`
