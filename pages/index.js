@@ -13,9 +13,9 @@ export default function Home() {
           <Title>Hi! I'm Gonzalo.</Title>
           <Subtitle>I think about engineering, art, startups, and philosophy.</Subtitle>
           <BulletedList>
-            <PrimerBullet>Founding Mobile Engineer at <InlineLink href="https://withprimer.com" target="blank">Primer</InlineLink></PrimerBullet>
-            <SubstackBullet>Thinking out loud at <InlineLink href="https://gonzalonunez.substack.com" target="blank">A Work in Progress</InlineLink></SubstackBullet>
-            <LocationBullet>Living in San Francisco, CA</LocationBullet>
+            <PrimerBullet> Founding Mobile Engineer at <InlineLink href="https://primer.com" target="blank">Primer</InlineLink></PrimerBullet>
+            <SubstackBullet> Thinking out loud at <InlineLink href="https://gonzalonunez.substack.com" target="blank">A Work in Progress</InlineLink></SubstackBullet>
+            <LocationBullet> Living in San Francisco, CA</LocationBullet>
           </BulletedList>
           <Row>
             <SocialLink href="https://twitter.com/gonzalo__nunez" target="blank">Twitter</SocialLink>
