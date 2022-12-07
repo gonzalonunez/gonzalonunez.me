@@ -13,7 +13,8 @@ module.exports = {
         success: '#34C759'
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif']
+        body: ['Inter'],
+        title: ['Lora']
       },
       spacing: {
         sm: '8px',
