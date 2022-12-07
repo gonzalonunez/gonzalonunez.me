@@ -20,6 +20,7 @@ function Sidebar(props) {
         </div>
         <h1 className='font-title text-2xl pb-md'>Gonzalo Nuñez</h1>
         <ul className='list-none space-y-[4px]'>
+          <SidebarItem title='About' />
           <SidebarItem title='Archives' />
           <SidebarItem title='Reading' />
           <SidebarItem title='Writing' icon='arrow-top-right' />
