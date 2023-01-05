@@ -10,6 +10,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^2.0.13",
+    "@tailwindcss/typography": "^0.5.8",
     "autoprefixer": "^10.4.13",
     "next": "^12.2.0",
     "postcss": "^8.4.19",

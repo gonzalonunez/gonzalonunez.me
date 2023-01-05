@@ -8,7 +8,6 @@ function SidebarItem(props) {
   const router = useRouter();
   const { isOpen, setIsOpen } = useContext(NavigationContext);
   const { href, icon, isExternal, title } = props;
-  console.log(router.asPath);
   return (
     <Link href={href} target={isExternal ? '_blank' : undefined}>
       <div
