@@ -1,15 +1,21 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useContext } from 'react';
 import Icon from './Icon';
 import { NavigationContext } from './providers/Navigation';
-import { useContext } from 'react';
 
 function SidebarItem(props) {
+  const router = useRouter();
   const { isOpen, setIsOpen } = useContext(NavigationContext);
   const { href, icon, isExternal, title } = props;
+  console.log(router.asPath);
   return (
     <Link href={href} target={isExternal ? '_blank' : undefined}>
       <div
-        className='flex flex-row items-center rounded-md p-sm cursor-pointer hover:bg-neutral-50 active:bg-neutral-100'
+        className={`${
+          router.asPath === href ? `bg-neutral-100` : `bg-white`
+        } flex flex-row items-center rounded-md p-sm cursor-pointer hover:bg-neutral-100
+        `}
         onClick={() => {
           if (!isExternal) {
             setIsOpen(false);
