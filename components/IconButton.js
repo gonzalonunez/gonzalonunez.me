@@ -3,7 +3,7 @@ import Icon from './Icon';
 function IconButton(props) {
   const { name, onClick } = props;
   return (
-    <button className='hover:opacity-75 active:opacity-50' onClick={onClick}>
+    <button className='hover:opacity-60 active:opacity-40' onClick={onClick}>
       <Icon name={name} />
     </button>
   );
