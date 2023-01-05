@@ -30,7 +30,7 @@ function Sidebar() {
         <SidebarItem
           href='https://github.com/gonzalonunez'
           isExternal={true}
-          title='Github'
+          title='GitHub'
           icon='arrow-top-right'
         />
         <SidebarItem
