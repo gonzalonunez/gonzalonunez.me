@@ -11,7 +11,7 @@ export default function Home() {
             Primer
           </a>{' '}
           and I live in San Francisco, California. If you'd like to grab beer or
-          a coffee, feel free to reach out via{' '}
+          a coffee, feel free to reach out on{' '}
           <a href='https://twitter.com/gonzalo__nunez' target='_blank'>
             Twitter
           </a>
