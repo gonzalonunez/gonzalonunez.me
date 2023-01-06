@@ -71,8 +71,12 @@ export default function Reading() {
         subtitle: 'Ernest Hemingway'
       },
       {
-        title: 'A Moveable Feast',
-        subtitle: 'Ernest Hemingway'
+        title: 'The Brothers Karamazov',
+        subtitle: 'Dostoevsky'
+      },
+      {
+        title: 'Zen and the Art of Motorcycle Maintenance',
+        subtitle: 'Robert Pirsig'
       }
     ],
     nonfiction: [
@@ -103,6 +107,10 @@ export default function Reading() {
       {
         title: 'The War of Art',
         subtitle: 'Steven Pressfield'
+      },
+      {
+        title: 'A Moveable Feast',
+        subtitle: 'Ernest Hemingway'
       }
     ],
     essays: [
@@ -155,7 +163,12 @@ export default function Reading() {
         subtitle: 'Aleksandr Solzhenitsyn'
       }
     ],
-    poetry: ['Burning in Water, Drowning in Flame (Charles Bukowski)']
+    poetry: [
+      {
+        title: 'Burning in Water, Drowning in Flame',
+        subtitle: 'Charles Bukowski'
+      }
+    ]
   };
   return (
     <Article title='Reading'>
