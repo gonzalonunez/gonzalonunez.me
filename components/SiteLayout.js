@@ -8,11 +8,7 @@ function SiteLayout(props) {
   const { isOpen, setIsOpen } = useContext(NavigationContext);
   return (
     <div className='flex flex-column'>
-      <div
-        className={`${
-          isOpen ? 'absolute translate-x-0' : 'absolute -translate-x-full'
-        } transition-transform z-50`}
-      >
+      <div className='fixed z-50'>
         <Sidebar />
       </div>
       <div>

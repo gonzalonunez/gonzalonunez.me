@@ -7,7 +7,11 @@ import SidebarItem from './SidebarItem';
 function Sidebar() {
   const { isOpen, setIsOpen } = useContext(NavigationContext);
   return (
-    <nav className='bg-white border-r p-md h-screen w-64'>
+    <nav
+      className={`${
+        isOpen ? 'absolute translate-x-0' : 'absolute -translate-x-full'
+      } transition-transform bg-white border-r p-md h-screen w-64`}
+    >
       <div className='pb-sm'>
         <IconButton
           name='window'
