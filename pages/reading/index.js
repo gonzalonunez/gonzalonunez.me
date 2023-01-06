@@ -130,7 +130,7 @@ export default function Reading() {
         title: 'Cuba',
         subtitle: 'Erna Fergusson',
         details:
-          "Best book on Cuba that I have ever read. Shines a light on 1940s pre-revolutionary Cuba from a first-person perspective. The author sits down for a coffee with my grandfather. Tough to find a copy but I've linked to the Goodreads for those interested",
+          "Best book on Cuba that I have ever read. Shines a light on 1940s pre-revolutionary Cuba from a first-person perspective. The author sits down for a coffee with my grandfather. Tough to find a copy but I've linked to the Goodreads for those interested.",
         href: 'https://www.goodreads.com/en/book/show/17234438-cuba'
       },
       {
