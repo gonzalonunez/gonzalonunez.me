@@ -251,7 +251,7 @@ export default function Reading() {
         title: 'From Mises to Carlyle',
         subtitle: 'Mencius Moldbug',
         details:
-          'Critical to understanding Moldbug, the closest person we have to a philosopher-king today. Strong diagnosis of some of the failures of modern politics. Just like Nietzsche, ignoring Moldbug is a mistake.',
+          'Critical to understanding Moldbug, the closest person we have to a philosopher-king today. Just like Nietzsche, ignoring Moldbug is a mistake.',
         href: 'https://www.unqualified-reservations.org/2010/02/from-mises-to-carlyle-my-sick-journey/'
       },
       {
