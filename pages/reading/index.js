@@ -272,7 +272,7 @@ export default function Reading() {
         title: 'Burning in Water, Drowning in Flame',
         subtitle: 'Charles Bukowski',
         details:
-          'Turns out you can just buy a book of poems and read it front-to-back as if it were a novel.',
+          'Turns out you can just buy a book of poems and sit for 30 minutes straight reading poem after poem, one after the other.',
         href: 'https://www.amazon.com/Burning-Water-Drowning-Charles-Bukowski/dp/087685191X'
       }
     ]
