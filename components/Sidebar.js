@@ -23,7 +23,6 @@ function Sidebar() {
       <h1 className='font-title text-2xl mb-md'>Gonzalo Nuñez</h1>
       <ul className='list-none space-y-[4px]'>
         <SidebarItem href='/' isExternal={false} title='About' />
-        <SidebarItem href='/archives' isExternal={false} title='Archives' />
         <SidebarItem href='/reading' isExternal={false} title='Reading' />
         <SidebarItem
           href='https://gonzalonunez.substack.com'
