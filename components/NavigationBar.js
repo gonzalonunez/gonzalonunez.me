@@ -1,6 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
+import IconButton from './IconButton';
+import { NavigationContext } from './providers/Navigation';
 
 function NavigationBar(props) {
+  const { isOpen, setIsOpen } = useContext(NavigationContext);
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleScroll = () => {
@@ -21,7 +24,12 @@ function NavigationBar(props) {
         scrollPosition > 0 ? 'border-b' : ''
       } flex flex-row p-md bg-white`}
     >
-      {props.children}
+      <IconButton
+        name='window'
+        onClick={() => {
+          setIsOpen(!isOpen);
+        }}
+      />
     </div>
   );
 }
