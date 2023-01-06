@@ -195,7 +195,7 @@ export default function Reading() {
         title: 'The White Album',
         subtitle: 'Joan Didion',
         details:
-          'I try to always have easy access to something by Didion. Makes you want to write. Not for everybody, but a staunch favorite of those for whom it is.',
+          'I try to always have easy access to something by Didion. Makes you want to write.',
         href: 'https://www.amazon.com/White-Album-Essays-Joan-Didion-ebook/dp/B072HMBLSM'
       },
       {
