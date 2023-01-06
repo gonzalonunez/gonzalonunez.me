@@ -227,7 +227,7 @@ export default function Reading() {
         title: 'Adult Fantasy of Youth',
         subtitle: 'Marilyn Simon',
         details:
-          'Beautiful and delicate analysis of a complex film. Motivated me to watch it, which is now one of my favorites.',
+          'Beautiful and delicate analysis of a complex film. Motivated me to watch the movie and now it is one of my favorites.',
         href: 'https://quillette.com/2022/08/18/adult-fantasy-of-youth/'
       },
       {
