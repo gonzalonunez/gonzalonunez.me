@@ -29,7 +29,7 @@ export default function Reading() {
         title: 'Nietzsche (Everything)'
       },
       {
-        title: 'Nietzsche',
+        title: 'Nietzsche: A Philosophical Biography',
         subtitle: 'Rüdiger Safranski'
       },
       {
@@ -161,6 +161,10 @@ export default function Reading() {
       {
         title: 'A World Split Apart',
         subtitle: 'Aleksandr Solzhenitsyn'
+      },
+      {
+        title: 'The End of History (Essay)',
+        subtitle: 'Francis Fukuyama'
       }
     ],
     poetry: [
