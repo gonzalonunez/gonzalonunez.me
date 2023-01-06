@@ -19,7 +19,7 @@ function NavigationBar(props) {
     <div
       className={`${
         scrollPosition > 0 ? 'border-b' : ''
-      } sticky top-0 z-20 flex flex-row p-md bg-white w-screen`}
+      } flex flex-row p-md bg-white`}
     >
       {props.children}
     </div>

@@ -7,11 +7,11 @@ import Sidebar from './Sidebar';
 function SiteLayout(props) {
   const { isOpen, setIsOpen } = useContext(NavigationContext);
   return (
-    <div className='flex flex-column'>
+    <div>
       <div className='fixed z-50'>
         <Sidebar />
       </div>
-      <div>
+      <div className='sticky top-0 z-40'>
         <NavigationBar>
           <IconButton
             name='window'
@@ -20,8 +20,8 @@ function SiteLayout(props) {
             }}
           />
         </NavigationBar>
-        {props.children}
       </div>
+      {props.children}
     </div>
   );
 }
