@@ -26,10 +26,10 @@ export default function Reading() {
   const content = {
     philosophy: [
       {
-        title: 'Nietzche (Everything)'
+        title: 'Nietzsche (Everything)'
       },
       {
-        title: 'Nietzche',
+        title: 'Nietzsche',
         subtitle: 'Rüdiger Safranski'
       },
       {
