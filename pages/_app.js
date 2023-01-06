@@ -1,22 +1,17 @@
+import Head from 'next/head';
+import { useState } from 'react';
+import { NavigationContext } from '../components/providers/Navigation';
+import SiteLayout from '../components/SiteLayout';
+import '../styles/globals.css';
 
-import App from 'next/app'
-import { ThemeProvider } from 'styled-components'
-
-const theme = {
-  colors: {
-    primary: '#007AFF',
-    error: '#FF3B30',
-    green: '#34C759',
-  },
-}
-
-export default class MyApp extends App {
-  render() {
-    const { Component, pageProps } = this.props
-    return (
-      <ThemeProvider theme={theme}>
+export default function MyApp({ Component, pageProps }) {
+  const [isOpen, setIsOpen] = useState(false);
+  return (
+    <NavigationContext.Provider value={{ isOpen, setIsOpen }}>
+      <Head></Head>
+      <SiteLayout>
         <Component {...pageProps} />
-      </ThemeProvider>
-    )
-  }
+      </SiteLayout>
+    </NavigationContext.Provider>
+  );
 }
