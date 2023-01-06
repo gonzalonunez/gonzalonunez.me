@@ -1,7 +1,12 @@
 import Article from '../../components/Article';
 
 function ReadingItem(props) {
-  return <li>{props.item}</li>;
+  return (
+    <li>
+      <div className=''>{props.item.title}</div>
+      <div className='text-xs text-neutral-400'>{props.item.subtitle}</div>
+    </li>
+  );
 }
 
 function ReadingItems(props) {
@@ -20,42 +25,135 @@ function ReadingItems(props) {
 export default function Reading() {
   const content = {
     philosophy: [
-      'Nietzche (Everything)',
-      'Nietzsche (Rüdiger Safranski)',
-      'The Human Condition (Hannah Arendt)',
-      'The Machiavellians (James Burnham)',
-      'Essays and Aphorisms (Schopenhauer)',
-      'In the Presence of Schopenhauer (Michel Houellebecq)',
-      'The End of History (Francis Fukuyama)'
+      {
+        title: 'Nietzche (Everything)'
+      },
+      {
+        title: 'Nietzche',
+        subtitle: 'Rüdiger Safranski'
+      },
+      {
+        title: 'The Human Condition',
+        subtitle: 'Hannah Arendt'
+      },
+      {
+        title: 'The Machiavellians',
+        subtitle: 'James Burnham'
+      },
+      {
+        title: 'Essays and Aphorisms',
+        subtitle: 'Schopenhauer'
+      },
+      {
+        title: 'In the Presence of Schopenhauer',
+        subtitle: 'Michel Houellebecq'
+      },
+      {
+        title: 'The End of History',
+        subtitle: 'Francis Fukuyama'
+      }
     ],
     fiction: [
-      'The Elementary Particles (Michel Houellebecq)',
-      'The Map and The Territory (Michel Houellebecq)',
-      'The Complete Short Stories of Ernest Hemingway (Ernest Hemingway)',
-      'The Sun Also Rises (Ernest Hemingway)',
-      'A Moveable Feast (Ernest Hemingway)'
+      {
+        title: 'The Elementary Particles',
+        subtitle: 'Michel Houellebecq'
+      },
+      {
+        title: 'The Map and The Territory',
+        subtitle: 'Michel Houellebecq'
+      },
+      {
+        title: 'The Complete Short Stories (Finca Vigía)',
+        subtitle: 'Ernest Hemingway'
+      },
+      {
+        title: 'The Sun Also Rises',
+        subtitle: 'Ernest Hemingway'
+      },
+      {
+        title: 'A Moveable Feast',
+        subtitle: 'Ernest Hemingway'
+      }
     ],
     nonfiction: [
-      'Cuba (Erna Fergusson)',
-      'The Sugar King of Havana (John Paul Rathbone)',
-      'Leonardo da Vinci (Isaacson)',
-      "Don't Tell Me I Can't (Cole Summers)",
-      'The Timeless Way of Building (Christopher Alexander)',
-      'The War of Art (Steven Pressfield)'
+      {
+        title: 'Cuba',
+        subtitle: 'Erna Fergusson'
+      },
+      {
+        title: 'The Sugar King of Havana',
+        subtitle: 'John Paul Rathbone'
+      },
+      {
+        title: 'Leonardo da Vinci',
+        subtitle: 'Walter Isaacson'
+      },
+      {
+        title: 'Bolívar',
+        subtitle: 'Marie Arana'
+      },
+      {
+        title: "Don't Tell Me I Can't",
+        subtitle: 'Cole Summers'
+      },
+      {
+        title: 'The Timeless Way of Building',
+        subtitle: 'Christopher Alexander'
+      },
+      {
+        title: 'The War of Art',
+        subtitle: 'Steven Pressfield'
+      }
     ],
     essays: [
-      'The White Album (Joan Didion)',
-      'Slouching Towards Bethlehem  (Joan Didion)',
-      'Quit Your Job (Wolf Tivy)',
-      'Start With Creation (Simon Sarris)',
-      'In Praise of the Gods (Simon Sarris)',
-      'The Most Precious Resource is Agency (Simon Sarris)',
-      'Adult Fantasy of Youth (Marilyn Simon)',
-      'How an 18th Century Philosopher Helped Solve My Midlife Crisis (Alison Gopnik)',
-      'La Patria a flor de piel (IMarie Núñez)',
-      'This is Water (David Foster Wallace)',
-      'From Mises to Carlyle (Mencius Moldbug)',
-      'A World Split Apart (Solzhenitsyn)'
+      {
+        title: 'The White Album',
+        subtitle: 'Joan Didion'
+      },
+      {
+        title: 'Slouching Towards Bethlehem',
+        subtitle: 'Joan Didion'
+      },
+      {
+        title: 'Quit Your Job',
+        subtitle: 'Wolf Tivy'
+      },
+      {
+        title: 'Start With Creation',
+        subtitle: 'Simon Sarris'
+      },
+      {
+        title: 'In Praise of the Gods',
+        subtitle: 'Simon Sarris'
+      },
+      {
+        title: 'The Most Precious Resource is Agency',
+        subtitle: 'Simon Sarris'
+      },
+      {
+        title: 'Adult Fantasy of Youth',
+        subtitle: 'Marilyn Simon'
+      },
+      {
+        title: 'How an 18th Century Philosopher Helped Solve My Midlife Crisis',
+        subtitle: 'Alison Gopnik'
+      },
+      {
+        title: 'La Patria a flor de piel',
+        subtitle: 'IMarie Nuñez'
+      },
+      {
+        title: 'This is Water',
+        subtitle: 'David Foster Wallace'
+      },
+      {
+        title: 'From Mises to Carlyle',
+        subtitle: 'Mencius Moldbug'
+      },
+      {
+        title: 'A World Split Apart',
+        subtitle: 'Aleksandr Solzhenitsyn'
+      }
     ],
     poetry: ['Burning in Water, Drowning in Flame (Charles Bukowski)']
   };
