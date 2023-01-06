@@ -113,7 +113,7 @@ export default function Reading() {
         title: 'Cuba',
         subtitle: 'Erna Fergusson',
         details:
-          'Best book on Cuba that I have ever read. Shines a light on 1940s pre-revolutionary Cuba from a first-person perspective. The author sits down and has a coffee with my grandfather.'
+          'Best book on Cuba that I have ever read. Shines a light on 1940s pre-revolutionary Cuba from a first-person perspective. The author sits down for a coffee with my grandfather.'
       },
       {
         title: 'The Sugar King of Havana',
@@ -130,6 +130,12 @@ export default function Reading() {
         subtitle: 'Marie Arana',
         details:
           'Fun read, does not shy away from the complex details of such a monumental figure. Doubles as a lesson in Latin American history.'
+      },
+      {
+        title: 'The Civilization of the Italian Renaissance',
+        subtitle: 'Jacob Burckhardt',
+        details:
+          'Fascinating look into some of the driving factors behind a Golden Age. I arrived here by way of Nietzsche, it explains some of the historical motivations behind certain aspects of his philosophy.'
       },
       {
         title: "Don't Tell Me I Can't",
@@ -203,7 +209,7 @@ export default function Reading() {
         title: 'From Mises to Carlyle',
         subtitle: 'Mencius Moldbug',
         details:
-          "Critical to understanding Moldbug, the closest person we have today to a philosopher-king. Strong diagnosis of some of today's political failures. Just like Nietzsche, ignoring Moldbug is a mistake."
+          'Critical to understanding Moldbug, the closest person we have to a philosopher-king today. Strong diagnosis of some of the failures of modern politics. Just like Nietzsche, ignoring Moldbug is a mistake.'
       },
       {
         title: 'A World Split Apart',
