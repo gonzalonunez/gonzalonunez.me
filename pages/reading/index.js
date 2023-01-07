@@ -55,7 +55,7 @@ export default function Reading() {
         title: 'The Machiavellians: Defenders of Freedom',
         subtitle: 'James Burnham',
         details:
-          'A book you cannot unsee, permanently changes the way you analyze and view politics.',
+          'A book you cannot unsee. Permanently changes the way you analyze and view politics.',
         href: 'https://www.amazon.com/Machiavellians-Defenders-Freedom-James-Burnham/dp/1839013958'
       },
       {
@@ -92,7 +92,7 @@ export default function Reading() {
         title: 'The Map and The Territory',
         subtitle: 'Michel Houellebecq',
         details:
-          "The most palatable of Houellebecq's novels. Good introduction to Houellebecq, but not his best for probably the same reasons.",
+          "The most palatable of Houellebecq's novels and a very good introduction to his thinking. Touches on a wide variety of Houellebecqian themes.",
         href: 'https://www.amazon.com/Map-Territory-Vintage-International/dp/0307946533'
       },
       {
@@ -113,7 +113,7 @@ export default function Reading() {
         title: 'The Brothers Karamazov',
         subtitle: 'Fyodor Dostoevsky',
         details:
-          'After Nietzsche makes you mean, Dostoevsky will save you. Long and complex, a book that calls to be reread over the course of a lifetime.',
+          'Nietzsche will make you mean and then Dostoevsky will save you. Long and complex, a book that calls to be reread over the course of a lifetime.',
         href: 'https://www.amazon.com/Brothers-Karamazov-Novel-Parts-Epilogue/dp/0140449248'
       },
       {
@@ -137,14 +137,14 @@ export default function Reading() {
         title: 'The Sugar King of Havana',
         subtitle: 'John Paul Rathbone',
         details:
-          "Another great book on Cuba. It is every Cuban-American's dream to tell the story of the Revolution while weaving in some family history. Great insight on Julio Lobo, very much a live-player in the tragic Cuban drama.",
+          "Another great book on Cuba. It is every Cuban American's dream to tell the story of the Revolution while weaving in some family history. Great insight on Julio Lobo, very much a live-player in the tragic Cuban drama.",
         href: 'https://www.amazon.com/Sugar-King-Havana-Julio-Tycoon/dp/0143119338'
       },
       {
         title: 'Leonardo da Vinci',
         subtitle: 'Walter Isaacson',
         details:
-          'A memorable biography of a brilliant and heretical figure. So good that it prompted me to write an essay about it years after reading.',
+          'A memorable biography of a brilliant and heretical figure. So good that years later it prompted me to write an essay.',
         href: 'https://www.amazon.com/Leonardo-Vinci-Walter-Isaacson/dp/1501139169'
       },
       {
@@ -158,7 +158,7 @@ export default function Reading() {
         title: 'The Civilization of the Renaissance in Italy',
         subtitle: 'Jacob Burckhardt',
         details:
-          'Fascinating look into some of the driving factors behind a Golden Age. I arrived here by way of Nietzsche, it explains some of the historical motivations behind certain aspects of his philosophy. Coined "the state as a work of art".',
+          'Fascinating look into some of the driving forces behind a Golden Age. I arrived here by way of Nietzsche, it explains some of the historical motivations behind certain aspects of his philosophy. Coined "the state as a work of art".',
         href: 'https://www.amazon.com/Civilization-Renaissance-Italy-Penguin-Classics/dp/014044534X'
       },
       {
@@ -172,7 +172,7 @@ export default function Reading() {
         title: 'The Timeless Way of Building',
         subtitle: 'Christopher Alexander',
         details:
-          'Contains the secrets of the universe. A wonderful introduction into the world of a seminal and perenially underrated thinker. Worth buying despite being out of print.',
+          'Contains secrets of the universe. A wonderful introduction into the world of a seminal and perenially underrated thinker. Worth buying despite being out of print.',
         href: 'https://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028'
       },
       {
