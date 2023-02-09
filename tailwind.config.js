@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -13,8 +15,8 @@ module.exports = {
         success: '#34C759'
       },
       fontFamily: {
-        body: ['Inter'],
-        title: ['Lora']
+        body: ['var(--font-inter)', ...defaultTheme.fontFamily.sans],
+        title: ['var(--font-lora)', ...defaultTheme.fontFamily.serif]
       },
       spacing: {
         sm: '8px',
