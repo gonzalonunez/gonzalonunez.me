@@ -24,7 +24,7 @@ function SiteLayout(props) {
         </div>
         <NavigationBar />
       </nav>
-      <div className='container h-screen mt-12'>{props.children}</div>
+      <div className='container h-screen mt-14'>{props.children}</div>
     </main>
   );
 }
