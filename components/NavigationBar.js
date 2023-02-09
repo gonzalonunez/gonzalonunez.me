@@ -22,7 +22,7 @@ function NavigationBar(props) {
     <div
       className={`${
         scrollPosition > 0 ? 'border-b' : ''
-      } flex flex-row p-md px-lg bg-white`}
+      } flex flex-row p-md bg-white`}
     >
       <IconButton
         name='window'

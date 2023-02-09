@@ -36,6 +36,12 @@ export default function About() {
           a new problem?
         </li>
         <li>
+          <a href='https://open.substack.com/pub/gonzalonunez/p/parasocial-media'>
+            Parasocial Media
+          </a>
+          : Nobody on the internet actually cares about you. I’m sorry.
+        </li>
+        <li>
           <a href='https://open.substack.com/pub/gonzalonunez/p/love-is-not-a-math-problem'>
             Love is not a math problem
           </a>
@@ -46,12 +52,6 @@ export default function About() {
             How to build a worldview
           </a>
           : A pattern language for understanding the world and my place in it.
-        </li>
-        <li>
-          <a href='https://open.substack.com/pub/gonzalonunez/p/the-art-of-masculinity'>
-            The Art of Masculinity
-          </a>
-          : Poking at the feelings and poetry of literature's macho men.
         </li>
       </ul>
     </Article>
