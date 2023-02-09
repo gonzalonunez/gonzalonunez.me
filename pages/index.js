@@ -5,12 +5,16 @@ export default function About() {
     <Article title='About'>
       <p>
         <b>Hi, I'm Gonzalo.</b> I think about engineering, art, startups, and
-        philosophy. I'm the Founding Mobile Engineer at{' '}
+        philosophy. Most recently, I was the Founding Mobile Engineer at{' '}
         <a href='https://primer.com' target='_blank'>
           Primer
-        </a>{' '}
-        and I live in San Francisco, California. If you'd like to grab beer or a
-        coffee, feel free to reach out on{' '}
+        </a>
+        . Prior to that, I was an iOS developer at{' '}
+        <a href='https://airbnb.com' target='_blank'>
+          Airbnb
+        </a>
+        . I currently live in San Francisco, California—if you'd like to grab
+        beer or a coffee, feel free to reach out on{' '}
         <a href='https://twitter.com/gonzalo__nunez' target='_blank'>
           Twitter
         </a>
