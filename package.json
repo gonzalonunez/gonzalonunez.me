@@ -10,9 +10,10 @@
   "dependencies": {
     "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^2.0.13",
+    "@next/font": "^13.1.6",
     "@tailwindcss/typography": "^0.5.8",
     "autoprefixer": "^10.4.13",
-    "next": "^12.2.0",
+    "next": "^13.0.0",
     "postcss": "^8.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
