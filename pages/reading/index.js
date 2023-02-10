@@ -1,32 +1,5 @@
 import Article from '../../components/Article';
-
-function ReadingItem(props) {
-  return (
-    <li key={props.item.href}>
-      <a className='select-none' href={props.item.href} target='_blank'>
-        {props.item.title}
-      </a>
-      <div className='prose text-xs text-neutral-400 mt-1'>
-        <b>{props.item.subtitle && `${props.item.subtitle}`}</b>
-        <b>{props.item.subtitle && props.item.details && ` · `}</b>
-        {props.item.details}
-      </div>
-    </li>
-  );
-}
-
-function ReadingItems(props) {
-  return (
-    <div>
-      <h4 className='select-none'>{props.title}</h4>
-      <ul>
-        {props.items.map(item => (
-          <ReadingItem item={item} />
-        ))}
-      </ul>
-    </div>
-  );
-}
+import { ListItems } from '../../components/ListItems';
 
 export default function Reading() {
   const content = {
@@ -280,22 +253,18 @@ export default function Reading() {
   return (
     <Article title='Reading'>
       <p>
-        A few of my favorite authors, books, essays and/or collected works that
-        I have read either in print or on the internet. You can find my Substack
-        recommendations over at{' '}
+        A few of my favorite authors, books, essays, and collected works. You
+        can find my Substack recommendations over at{' '}
         <a href='https://gonzalonunez.substack.com' target='_blank'>
           A Work in Progress
         </a>
         .
       </p>
-      <ReadingItems
-        title='Philosophy / Politics'
-        items={content['philosophy']}
-      />
-      <ReadingItems title='Fiction' items={content['fiction']} />
-      <ReadingItems title='Nonfiction' items={content['nonfiction']} />
-      <ReadingItems title='Essays / Speeches' items={content['essays']} />
-      <ReadingItems title='Poetry' items={content['poetry']} />
+      <ListItems title='Philosophy / Politics' items={content['philosophy']} />
+      <ListItems title='Fiction' items={content['fiction']} />
+      <ListItems title='Nonfiction' items={content['nonfiction']} />
+      <ListItems title='Essays / Speeches' items={content['essays']} />
+      <ListItems title='Poetry' items={content['poetry']} />
     </Article>
   );
 }

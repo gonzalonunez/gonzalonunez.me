@@ -9,14 +9,9 @@ export default function About() {
         <a href='https://primer.com' target='_blank'>
           Primer
         </a>
-        . Prior to that, I was an iOS developer at{' '}
+        . Prior to that, I worked at{' '}
         <a href='https://airbnb.com' target='_blank'>
           Airbnb
-        </a>
-        . I currently live in San Francisco, California—if you'd like to grab
-        beer or a coffee, feel free to reach out on{' '}
-        <a href='https://twitter.com/gonzalo__nunez' target='_blank'>
-          Twitter
         </a>
         .
       </p>
