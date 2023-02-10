@@ -4,7 +4,7 @@ export default function About() {
   return (
     <Article title='About'>
       <p>
-        <b>Hi, I'm Gonzalo.</b> I think about engineering, art, startups, and
+        <b>Hi, I'm Gonzalo.</b> I think about art, culture, startups, and
         philosophy. Most recently, I was the Founding Mobile Engineer at{' '}
         <a href='https://primer.com' target='_blank'>
           Primer
