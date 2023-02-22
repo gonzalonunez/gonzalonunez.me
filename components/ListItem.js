@@ -1,6 +1,6 @@
 export function ListItem(props) {
   return (
-    <li key={props.item.key ?? props.item.href}>
+    <li>
       {props.item.href ? (
         <a className='select-none' href={props.item.href} target='_blank'>
           {props.item.title}
