@@ -52,7 +52,7 @@ export default function About() {
     <Article title='About'>
       <p>
         <b>Hi, I'm Gonzalo.</b> I think about art, culture, startups, and
-        philosophy. I'm currently living in San Francisco, California.
+        philosophy and I'm currently living in San Francisco, California.
       </p>
       <ListItems title='Work' items={work} />
       <ListItems title='Essays' items={essays} />
