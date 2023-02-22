@@ -4,6 +4,7 @@ import { ListItems } from '../components/ListItems';
 
 const work = [
   {
+    key: 'current',
     title: '???',
     details: '2023–'
   },
@@ -52,8 +53,8 @@ export default function About() {
     <Article title='About'>
       <p>
         <b>Hi, I'm Gonzalo.</b> I think about art, culture, startups, and
-        philosophy. I'm currently based in San Francisco, California—want coffee
-        or a beer? Feel free to DM me on{' '}
+        philosophy. I'm currently based in San Francisco, California—want to
+        grab coffee or a beer? Feel free to DM me on{' '}
         <a href='https://twitter.com/gonzalo__nunez' target='_blank'>
           Twitter
         </a>
@@ -61,7 +62,7 @@ export default function About() {
       </p>
       <ListItems title='Work' items={work} />
       <ListItems title='Essays' items={essays} />
-      <p class='text-xs text-neutral-400'>
+      <p className='text-xs text-neutral-400 pb-1'>
         Read more at{' '}
         <a href='https://gonzalonunez.substack.com' target='_blank'>
           A Work in Progress
