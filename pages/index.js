@@ -62,7 +62,7 @@ export default function About() {
       </p>
       <ListItems title='Work' items={work} />
       <ListItems title='Essays' items={essays} />
-      <p className='text-xs text-neutral-400 pb-1'>
+      <p className='text-xs text-neutral-400 pb-6'>
         Read more at{' '}
         <a href='https://gonzalonunez.substack.com' target='_blank'>
           A Work in Progress
