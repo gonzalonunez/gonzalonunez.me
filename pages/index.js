@@ -53,11 +53,7 @@ export default function About() {
     <Article title='About'>
       <p>
         <b>Hi, I'm Gonzalo.</b> I think about art, culture, startups, and
-        philosophy. I'm currently based in San Francisco, California—want to
-        grab coffee or a beer? Feel free to DM me on{' '}
-        <a href='https://twitter.com/gonzalo__nunez' target='_blank'>
-          Twitter
-        </a>
+        philosophy. I'm currently based in San Francisco, California.
         .
       </p>
       <ListItems title='Work' items={work} />
