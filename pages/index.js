@@ -1,5 +1,4 @@
 import Article from '../components/Article';
-import Icon from '../components/Icon';
 import { ListItems } from '../components/ListItems';
 
 const work = [
@@ -52,9 +51,8 @@ export default function About() {
   return (
     <Article title='About'>
       <p>
-        <b>Hi, I'm Gonzalo.</b> I think about art, culture, startups, and
-        philosophy. I'm currently based in San Francisco, California—want to
-        grab coffee or a beer? Feel free to DM me on{' '}
+        <span className='font-semibold'>Hi, I'm Gonzalo.</span> I think about
+        art, culture, startups, and philosophy. For more, you can follow me on{' '}
         <a href='https://twitter.com/gonzalo__nunez' target='_blank'>
           Twitter
         </a>
