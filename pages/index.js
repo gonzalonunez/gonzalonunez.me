@@ -52,20 +52,17 @@ export default function About() {
     <Article title='About'>
       <p>
         <span className='font-semibold'>Hi, I'm Gonzalo.</span> I think about
-        art, culture, startups, and philosophy. For more, you can follow me on{' '}
-        <a href='https://twitter.com/gonzalo__nunez' target='_blank'>
-          Twitter
-        </a>
-        .
+        art, culture, startups, and philosophy. I also write mobile software.
       </p>
       <ListItems title='Work' items={work} />
-      <ListItems title='Essays' items={essays} />
-      <p className='text-xs text-neutral-400 pb-6'>
-        Read more at{' '}
-        <a href='https://gonzalonunez.substack.com' target='_blank'>
-          A Work in Progress
-        </a>
-      </p>
+      <ListItems title='Essays' items={essays}>
+        <div className='text-xs text-neutral-400 mt-[-4px] mb-[-4px]'>
+          Read more at{' '}
+          <a href='https://gonzalonunez.substack.com' target='_blank'>
+            A Work in Progress
+          </a>
+        </div>
+      </ListItems>
     </Article>
   );
 }
