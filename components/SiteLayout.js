@@ -1,21 +1,20 @@
-import { Inter, Lora } from '@next/font/google';
-import { useContext } from 'react';
+import { Inter, Lora } from "next/font/google";
 import NavigationBar from './NavigationBar';
-import { NavigationContext } from './providers/Navigation';
 import Sidebar from './Sidebar';
 
 const inter = Inter({
+  display: 'swap',
   subsets: ['latin'],
   variable: '--font-inter'
 });
 
 const lora = Lora({
+  display: 'swap',
   subsets: ['latin'],
   variable: '--font-lora'
 });
 
 function SiteLayout(props) {
-  const { isOpen, setIsOpen } = useContext(NavigationContext);
   return (
     <main className={`${lora.variable} ${inter.variable}`}>
       <nav className='fixed top-0 w-full z-10'>
