@@ -1,7 +1,5 @@
 import { Inter, Lora } from '@next/font/google';
-import { useContext } from 'react';
 import NavigationBar from './NavigationBar';
-import { NavigationContext } from './providers/Navigation';
 import Sidebar from './Sidebar';
 
 const inter = Inter({
