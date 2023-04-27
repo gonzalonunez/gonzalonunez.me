@@ -253,8 +253,8 @@ export default function Reading() {
   return (
     <Article title='Reading'>
       <p>
-        A few of my favorite authors, books, essays, and collected works. You
-        can find my Substack recommendations over at{' '}
+        A list of my favorite authors, books, essays, and collected works.
+        Updated yearly. You can find my Substack recommendations over at{' '}
         <a href='https://gonzalonunez.substack.com' target='_blank'>
           A Work in Progress
         </a>

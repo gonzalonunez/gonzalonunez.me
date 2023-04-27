@@ -1,6 +1,20 @@
 import Article from '../components/Article';
 import { ListItems } from '../components/ListItems';
 
+const projects = [
+  {
+    href: 'https://glyph.sh',
+    key: 'glyph',
+    title: 'Glyph',
+    details: 'What if GPT lived inside of your keyboard?'
+  },
+  {
+    href: 'https://github.com/gonzalonunez/docc-gpt',
+    title: 'DoccGPT',
+    details: 'Self-documenting Swift code with GPT and DocC'
+  }
+];
+
 const work = [
   {
     key: 'current',
@@ -54,6 +68,7 @@ export default function About() {
         <span className='font-semibold'>Hi, I'm Gonzalo.</span> I think about
         art, culture, startups, and philosophy. I also write mobile software.
       </p>
+      <ListItems title='Projects' items={projects} />
       <ListItems title='Work' items={work} />
       <ListItems title='Essays' items={essays}>
         <div className='text-xs text-neutral-400 mt-[-4px] mb-[-4px]'>

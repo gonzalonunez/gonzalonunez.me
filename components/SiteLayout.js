@@ -15,7 +15,6 @@ const lora = Lora({
 });
 
 function SiteLayout(props) {
-  const { isOpen, setIsOpen } = useContext(NavigationContext);
   return (
     <main className={`${lora.variable} ${inter.variable}`}>
       <nav className='fixed top-0 w-full z-10'>
