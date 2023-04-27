@@ -1,4 +1,4 @@
-import { Inter, Lora } from '@next/font/google';
+import { Inter, Lora } from "next/font/google";
 import NavigationBar from './NavigationBar';
 import Sidebar from './Sidebar';
 
