@@ -6,7 +6,7 @@ const projects = [
     href: 'https://glyph.sh',
     key: 'glyph',
     title: 'Glyph',
-    details: 'What if GPT lived inside of your keyboard?'
+    details: "What if GPT lived inside of your phone's keyboard?"
   },
   {
     href: 'https://github.com/gonzalonunez/docc-gpt',
