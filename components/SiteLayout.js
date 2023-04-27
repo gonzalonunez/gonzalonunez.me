@@ -3,11 +3,13 @@ import NavigationBar from './NavigationBar';
 import Sidebar from './Sidebar';
 
 const inter = Inter({
+  display: 'swap',
   subsets: ['latin'],
   variable: '--font-inter'
 });
 
 const lora = Lora({
+  display: 'swap',
   subsets: ['latin'],
   variable: '--font-lora'
 });
