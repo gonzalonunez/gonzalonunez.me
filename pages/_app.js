@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import Head from 'next/head';
 import { useState } from 'react';
 import { NavigationContext } from '../components/providers/Navigation';
@@ -33,6 +34,7 @@ export default function MyApp({ Component, pageProps }) {
       </Head>
       <SiteLayout>
         <Component {...pageProps} />
+        <Analytics />
       </SiteLayout>
     </NavigationContext.Provider>
   );
