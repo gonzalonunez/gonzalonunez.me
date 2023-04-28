@@ -69,7 +69,6 @@ export default function About() {
         art, culture, startups, and philosophy. I also write mobile software.
       </p>
       <ListItems title='Projects' items={projects} />
-      <ListItems title='Work' items={work} />
       <ListItems title='Essays' items={essays}>
         <div className='text-xs text-neutral-400 mt-[-4px] mb-[-4px]'>
           Read more at{' '}
@@ -78,6 +77,7 @@ export default function About() {
           </a>
         </div>
       </ListItems>
+      <ListItems title='Work' items={work} />
     </Article>
   );
 }
