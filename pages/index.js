@@ -68,7 +68,14 @@ export default function About() {
         <span className='font-semibold'>Hi, I'm Gonzalo.</span> I think about
         art, culture, startups, and philosophy. I also write mobile software.
       </p>
-      <ListItems title='Projects' items={projects} />
+      <ListItems title='Projects' items={projects}>
+        <div className='text-xs text-neutral-400 mt-[-4px] mb-[-4px]'>
+          Explore more projects on{' '}
+          <a href='https://github.com/gonzalonunez' target='_blank'>
+            GitHub
+          </a>
+        </div>
+      </ListItems>
       <ListItems title='Essays' items={essays}>
         <div className='text-xs text-neutral-400 mt-[-4px] mb-[-4px]'>
           Read more at{' '}
