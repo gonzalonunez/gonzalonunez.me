@@ -32,7 +32,7 @@ export default function About() {
     <Article title='About'>
       <p>
         <span className='font-semibold'>Hi, I'm Gonzalo.</span> I think about
-        art, culture, startups, and philosophy. I also write mobile software, mostly as part of my day job at <a className='text-rewind' href='https://rewind.ai'>Rewind AI</a>.
+        art, culture, startups, and philosophy. I also write software, mostly as part of my day job at <a className='text-rewind' href='https://rewind.ai'>Rewind AI</a>.
       </p>
       <ListItems title='Essays' items={essays}>
         <div className='text-xs text-neutral-400 mt-[-4px] mb-[-4px]'>
