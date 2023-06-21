@@ -1,40 +1,6 @@
 import Article from '../components/Article';
 import { ListItems } from '../components/ListItems';
 
-const projects = [
-  {
-    href: 'https://glyph.sh',
-    key: 'glyph',
-    title: 'Glyph',
-    details: "What if GPT lived inside of your phone's keyboard?"
-  },
-  {
-    href: 'https://github.com/gonzalonunez/docc-gpt',
-    title: 'DoccGPT',
-    details: 'Self-documenting Swift code with GPT and DocC'
-  }
-];
-
-const work = [
-  {
-    key: 'current',
-    title: '???',
-    details: '2023–'
-  },
-  {
-    href: 'https://primer.com',
-    title: 'Primer',
-    subtitle: 'Founding Mobile Engineer',
-    details: '2020–23'
-  },
-  {
-    href: 'https://airbnb.com',
-    title: 'Airbnb',
-    subtitle: 'Software Engineer',
-    details: '2018–20'
-  }
-];
-
 const essays = [
   {
     href: 'https://open.substack.com/pub/gonzalonunez/p/i-am-asking-you-to-want-something',
@@ -66,16 +32,8 @@ export default function About() {
     <Article title='About'>
       <p>
         <span className='font-semibold'>Hi, I'm Gonzalo.</span> I think about
-        art, culture, startups, and philosophy. I also write mobile software.
+        art, culture, startups, and philosophy. I also write mobile software, mostly as part of my day job at <a className='text-rewind' href='https://rewind.ai'>Rewind AI</a>.
       </p>
-      <ListItems title='Projects' items={projects}>
-        <div className='text-xs text-neutral-400 mt-[-4px] mb-[-4px]'>
-          Explore more projects on{' '}
-          <a href='https://github.com/gonzalonunez' target='_blank'>
-            GitHub
-          </a>
-        </div>
-      </ListItems>
       <ListItems title='Essays' items={essays}>
         <div className='text-xs text-neutral-400 mt-[-4px] mb-[-4px]'>
           Read more at{' '}
@@ -84,7 +42,6 @@ export default function About() {
           </a>
         </div>
       </ListItems>
-      <ListItems title='Work' items={work} />
     </Article>
   );
 }

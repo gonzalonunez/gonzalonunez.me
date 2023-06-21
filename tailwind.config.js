@@ -10,9 +10,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        error: '#FF3B30',
-        primary: '#007AFF',
-        success: '#34C759'
+        rewind: '#7A3BDA',
       },
       fontFamily: {
         body: ['var(--font-inter)', ...defaultTheme.fontFamily.sans],
