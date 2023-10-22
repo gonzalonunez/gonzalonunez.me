@@ -3,6 +3,12 @@ import { ListItems } from '../components/ListItems';
 
 const essays = [
   {
+    href: 'https://open.substack.com/pub/gonzalonunez/p/you-should-consider-yourself-exceptional',
+    title: 'You should consider yourself exceptional',
+    details:
+      'Nietzsche, Christ, Jobs, and a soon-to-be centenarian on whether or not you should think of yourself as special.'
+  },
+  {
     href: 'https://open.substack.com/pub/gonzalonunez/p/i-am-asking-you-to-want-something',
     title: 'I am asking you to want something',
     details:
@@ -18,12 +24,6 @@ const essays = [
     title: 'Love is not a math problem',
     details:
       'On the hyper-optimization of love and why commitment is underrated.'
-  },
-  {
-    href: 'https://open.substack.com/pub/gonzalonunez/p/how-to-build-a-worldview',
-    title: 'How to build a worldview',
-    details:
-      'A pattern language for understanding the world and my place in it.'
   }
 ];
 
