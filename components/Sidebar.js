@@ -10,7 +10,7 @@ function Sidebar() {
     <nav
       className={`${
         isOpen ? 'absolute translate-x-0' : 'absolute -translate-x-full'
-      } transition-transform bg-white border-r p-md h-screen w-64`}
+      } p-md h-screen w-64 border-r bg-white transition-transform`}
     >
       <div className='pb-sm'>
         <IconButton
@@ -20,7 +20,7 @@ function Sidebar() {
           }}
         />
       </div>
-      <h1 className='font-title text-2xl mb-md'>Gonzalo Nuñez</h1>
+      <h1 className='font-title mb-md text-2xl font-normal'>Gonzalo Nuñez</h1>
       <div className='flex flex-col space-y-[4px]'>
         <SidebarItem href='/' isExternal={false} title='About' />
         <SidebarItem href='/reading' isExternal={false} title='Reading' />
