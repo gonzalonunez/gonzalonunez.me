@@ -308,14 +308,12 @@ export default function Reading() {
       subtitle='Last updated on Sunday December 10, 2023'
     >
       <p>
-        A list of my favorite authors, books, essays, and collected works. You
-        can find my Substack recommendations over at{' '}
-        <a href='https://gonzalonunez.substack.com' target='_blank'>
-          A Work in Progress
-        </a>
-        . Updated yearly, new entries marked in green{' '}
-        <span className='text-neutral-400'>[</span>{' '}
-        <span className='align-text-middle text-green-500'>•</span>{' '}
+        A list of my favorite authors, books, essays, and collected works. The
+        overwhelming majority of what I read does not make it onto this list.
+        Updated yearly, new entries marked in green{' '}
+        <span className='text-neutral-400'>[</span>
+        &nbsp;
+        <span className='align-text-middle text-green-500'>•</span>&nbsp;
         <span className='text-neutral-400'>]</span>
       </p>
       <ListItems title='Philosophy / Politics' items={content['philosophy']} />
