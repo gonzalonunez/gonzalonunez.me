@@ -305,7 +305,7 @@ export default function Reading() {
   return (
     <Article
       title='Reading'
-      subtitle='Last updated on Sunday December 10, 2024'
+      subtitle='Last updated on Sunday December 10, 2023'
     >
       <p>
         A list of my favorite authors, books, essays, and collected works. You
