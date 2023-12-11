@@ -66,7 +66,7 @@ export default function Reading() {
         title: 'Confessions',
         subtitle: 'Saint Augustine',
         details:
-          'Somehow ten-times more relatable than I had originally anticipated. A beautiful text that should accompany every young Catholic, especially he who is accustomed to the modern habit of taking history for granted.',
+          'Somehow ten-times more relatable than I had originally anticipated. A beautiful text that should accompany every young Catholic, especially those who are accustomed to the modern habit of taking history for granted.',
         href: 'https://a.co/d/fDBP6vB',
         new: true
       }
@@ -121,7 +121,7 @@ export default function Reading() {
         title: 'The Conquest of New Spain',
         subtitle: 'Bernal Díaz',
         details:
-          "A gripping first-hand account of Cortes' conquest of the Aztec empire by one of his own soldiers. One of the most engaging accounts of perhaps the most incredible tale that history has to offer. Also the best primary source I have ever come across, and certainly the easiest to read as well.",
+          "A gripping first-hand account of Cortes' conquest of the Aztec empire, perhaps the most incredible tale that history has to offer, by one of his own soldiers. Also the best primary source I have ever come across, and certainly the easiest to read as well.",
         href: 'https://a.co/d/f75VqQ0',
         new: true
       },
@@ -129,7 +129,7 @@ export default function Reading() {
         title: 'Cuba: A History',
         subtitle: 'Hugh Thomas',
         details:
-          "Published in 1971 and absolutely massive in scope, Thomas starts from the English occupation of Havana in 1762 and ends with the Cuban Missile Crisis. A nuanced and neutral account anchored in a liberal historian's point of view, although Thomas' labour sympathies occasionally shine through. Serves as great jumping off point into further research with its deep bibliography.",
+          "Published in 1971 and absolutely massive in scope, Thomas starts from the English occupation of Havana in 1762 and ends with the Cuban Missile Crisis. A nuanced and neutral account anchored in a liberal historian's point of view, although Thomas' labor sympathies occasionally shine through. Serves as great jumping off point into further research with its deep bibliography.",
         href: 'https://a.co/d/ch9a6cm',
         new: true
       },
@@ -138,16 +138,14 @@ export default function Reading() {
         subtitle: 'Erna Fergusson',
         details:
           "Most enjoyable book on Cuba that I have ever read. Shines a light on 1940s pre-revolutionary Cuba from a first-person perspective. The author sits down for a coffee with my grandfather. Tough to find a copy but I've linked to the Goodreads for those interested.",
-        href: 'https://www.goodreads.com/en/book/show/17234438-cuba',
-        new: true
+        href: 'https://www.goodreads.com/en/book/show/17234438-cuba'
       },
       {
         title: 'The Sugar King of Havana',
         subtitle: 'John Paul Rathbone',
         details:
-          "Another great book on Cuba. It is every Cuban American's dream to tell the story of the Revolution while weaving in some family history, which Rathbone executes masterfully. Great insight on Julio Lobo, very much a live-player in the tragic Cuban drama.",
-        href: 'https://www.amazon.com/Sugar-King-Havana-Julio-Tycoon/dp/0143119338',
-        new: true
+          "Another great book on Cuba. It is every Cuban American's dream to tell the story of the Revolution while weaving in some family history. Rathbone executes masterfully. Great insight on Julio Lobo, very much a live-player in the tragic Cuban drama.",
+        href: 'https://www.amazon.com/Sugar-King-Havana-Julio-Tycoon/dp/0143119338'
       },
       {
         title: 'Steve Jobs',
