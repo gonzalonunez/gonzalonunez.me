@@ -53,6 +53,24 @@ export default function Reading() {
         href: 'https://www.amazon.com/End-History-Last-Man/dp/0743284550'
       }
     ],
+    religion: [
+      {
+        title: 'Dominion',
+        subtitle: 'Tom Holland',
+        details:
+          'It is impossible to read Dominion and not come out the other side a completely different person. Whether you are religious or not, this is an earth-shattering book and one that will surely be discussed for decades to come, maybe even centuries. Also, easy to read and very much written for the modern reader.',
+        href: 'https://a.co/d/gsnxzUc',
+        new: true
+      },
+      {
+        title: 'Confessions',
+        subtitle: 'Saint Augustine',
+        details:
+          'Somehow ten-times more relatable than I had originally anticipated. A beautiful text that should accompany every young Catholic, especially he who is accustomed to the modern habit of taking history for granted.',
+        href: 'https://a.co/d/fDBP6vB',
+        new: true
+      }
+    ],
     fiction: [
       {
         title: 'The Elementary Particles',
@@ -100,18 +118,44 @@ export default function Reading() {
     ],
     nonfiction: [
       {
+        title: 'The Conquest of New Spain',
+        subtitle: 'Bernal Díaz',
+        details:
+          "A gripping first-hand account of Cortes' conquest of the Aztec empire by one of his own soldiers. One of the most engaging accounts of perhaps the most incredible tale that history has to offer. Also the best primary source I have ever come across, and certainly the easiest to read as well.",
+        href: 'https://a.co/d/f75VqQ0',
+        new: true
+      },
+      {
+        title: 'Cuba: A History',
+        subtitle: 'Hugh Thomas',
+        details:
+          "Published in 1971 and absolutely massive in scope, Thomas starts from the English occupation of Havana in 1762 and ends with the Cuban Missile Crisis. A nuanced and neutral account anchored in a liberal historian's point of view, although Thomas' labour sympathies occasionally shine through. Serves as great jumping off point into further research with its deep bibliography.",
+        href: 'https://a.co/d/ch9a6cm',
+        new: true
+      },
+      {
         title: 'Cuba',
         subtitle: 'Erna Fergusson',
         details:
-          "Best book on Cuba that I have ever read. Shines a light on 1940s pre-revolutionary Cuba from a first-person perspective. The author sits down for a coffee with my grandfather. Tough to find a copy but I've linked to the Goodreads for those interested.",
-        href: 'https://www.goodreads.com/en/book/show/17234438-cuba'
+          "Most enjoyable book on Cuba that I have ever read. Shines a light on 1940s pre-revolutionary Cuba from a first-person perspective. The author sits down for a coffee with my grandfather. Tough to find a copy but I've linked to the Goodreads for those interested.",
+        href: 'https://www.goodreads.com/en/book/show/17234438-cuba',
+        new: true
       },
       {
         title: 'The Sugar King of Havana',
         subtitle: 'John Paul Rathbone',
         details:
-          "Another great book on Cuba. It is every Cuban American's dream to tell the story of the Revolution while weaving in some family history. Great insight on Julio Lobo, very much a live-player in the tragic Cuban drama.",
-        href: 'https://www.amazon.com/Sugar-King-Havana-Julio-Tycoon/dp/0143119338'
+          "Another great book on Cuba. It is every Cuban American's dream to tell the story of the Revolution while weaving in some family history, which Rathbone executes masterfully. Great insight on Julio Lobo, very much a live-player in the tragic Cuban drama.",
+        href: 'https://www.amazon.com/Sugar-King-Havana-Julio-Tycoon/dp/0143119338',
+        new: true
+      },
+      {
+        title: 'Steve Jobs',
+        subtitle: 'Walter Isaacson',
+        details:
+          "Do not make the same mistake that I did and think that you don't need to read this. Silicon Valley could really use another Jobs. This is Isaacson at his best.",
+        href: 'https://a.co/d/3EacMqw',
+        new: true
       },
       {
         title: 'Leonardo da Vinci',
@@ -212,7 +256,7 @@ export default function Reading() {
         title: 'La Patria a flor de piel',
         subtitle: 'IMarie Nuñez',
         details:
-          'A piece of family history written by my aunt, from the perspective of my grandmother.',
+          'A piece of family history written by my aunt from the perspective of my grandmother.',
         href: 'https://cronicasdeimarie.com/relatos-cuentos/la-patria-a-flor-de-piel/'
       },
       {
@@ -247,20 +291,33 @@ export default function Reading() {
         details:
           'Turns out you can just buy a book of poems and sit for 30 minutes straight reading poem after poem, one after the other.',
         href: 'https://www.amazon.com/Burning-Water-Drowning-Charles-Bukowski/dp/087685191X'
+      },
+      {
+        title: 'Versos Sencillos',
+        subtitle: 'Jose Martí',
+        details:
+          "A wonderful collection of poems from Cuba's most heroic figure. See also: Ismaelillo.",
+        href: 'https://a.co/d/1FwRFbs',
+        new: true
       }
     ]
   };
   return (
-    <Article title='Reading'>
+    <Article
+      title='Reading'
+      subtitle='Last updated on Sunday December 10, 2023'
+    >
       <p>
-        A list of my favorite authors, books, essays, and collected works.
-        Updated yearly. You can find my Substack recommendations over at{' '}
-        <a href='https://gonzalonunez.substack.com' target='_blank'>
-          A Work in Progress
-        </a>
-        .
+        A list of my favorite authors, books, essays, and collected works. The
+        overwhelming majority of what I read does not make it onto this list.
+        Updated yearly, new entries marked in green{' '}
+        <span className='text-neutral-400'>[</span>
+        &nbsp;
+        <span className='align-text-middle text-green-500'>•</span>&nbsp;
+        <span className='text-neutral-400'>]</span>
       </p>
       <ListItems title='Philosophy / Politics' items={content['philosophy']} />
+      <ListItems title='Religion' items={content['religion']} />
       <ListItems title='Fiction' items={content['fiction']} />
       <ListItems title='Nonfiction' items={content['nonfiction']} />
       <ListItems title='Essays / Speeches' items={content['essays']} />
