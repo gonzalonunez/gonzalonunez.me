@@ -51,6 +51,14 @@ export default function Reading() {
         details:
           'Fukuyama was right. Strong and widely misunderstood thesis, more relevant with each passing day. Written for the modern reader, weaves a beautiful tapestry of history and philosophy. Also a great introduction to Hegel and supplement to Nietzsche.',
         href: 'https://www.amazon.com/End-History-Last-Man/dp/0743284550'
+      },
+      {
+        title: 'Psychopolitics',
+        subtitle: 'Byung-Chul Han',
+        details:
+          'An interesting little book, certainly one of the most thoughtful critiques of modernity that I have ever come across. Rhymes with Houellebecq in many ways.',
+        href: 'https://a.co/d/0A35M9G',
+        new: true
       }
     ],
     religion: [
