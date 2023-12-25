@@ -137,7 +137,7 @@ export default function Reading() {
         title: 'Cuba: A History',
         subtitle: 'Hugh Thomas',
         details:
-          "Published in 1971 and absolutely massive in scope, Thomas starts from the English occupation of Havana in 1762 and ends with the Cuban Missile Crisis. A nuanced and neutral account anchored in a liberal historian's point of view, although Thomas' labor sympathies occasionally shine through. Serves as great jumping off point into further research with its deep bibliography.",
+          "Published in 1971 and absolutely massive in scope, Thomas starts from the English occupation of Havana in 1762 and ends with the Cuban Missile Crisis. A nuanced and neutral account anchored in a liberal historian's point of view, although Thomas' labor sympathies occasionally shine through. Serves as a great jumping off point into further research with its deep bibliography.",
         href: 'https://a.co/d/ch9a6cm',
         new: true
       },
