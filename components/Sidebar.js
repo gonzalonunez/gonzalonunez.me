@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { clsx } from 'clsx';
 import { useContext } from 'react';
 import IconButton from './IconButton';
 import { NavigationContext } from './providers/Navigation';
@@ -7,12 +7,13 @@ import SidebarItem from './SidebarItem';
 function Sidebar() {
   const { isOpen, setIsOpen } = useContext(NavigationContext);
   return (
-    <nav
-      className={`${
-        isOpen ? 'absolute translate-x-0' : 'absolute -translate-x-full'
-      } p-md h-screen w-64 border-r bg-white transition-transform`}
+    <aside
+      className={clsx(
+        isOpen ? 'absolute translate-x-0' : 'absolute -translate-x-full',
+        'z-50 h-screen w-64 border-r bg-white p-4 pt-0 transition-transform'
+      )}
     >
-      <div className='pb-sm'>
+      <div className='max-h-14 py-4'>
         <IconButton
           name='window'
           onClick={() => {
@@ -20,7 +21,9 @@ function Sidebar() {
           }}
         />
       </div>
-      <h1 className='font-title mb-md text-2xl font-normal'>Gonzalo Nuñez</h1>
+      <div className='prose'>
+        <h1 className='font-title pb-5 text-2xl'>Gonzalo Nuñez</h1>
+      </div>
       <div className='flex flex-col space-y-[4px]'>
         <SidebarItem href='/' isExternal={false} title='About' />
         <SidebarItem href='/reading' isExternal={false} title='Reading' />
@@ -43,7 +46,7 @@ function Sidebar() {
           icon='arrow-top-right'
         />
       </div>
-    </nav>
+    </aside>
   );
 }
 

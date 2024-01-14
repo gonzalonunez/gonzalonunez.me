@@ -1,6 +1,6 @@
 import { Analytics } from '@vercel/analytics/react';
 import Head from 'next/head';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { NavigationContext } from '../components/providers/Navigation';
 import SiteLayout from '../components/SiteLayout';
 import '../styles/globals.css';

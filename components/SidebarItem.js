@@ -1,3 +1,4 @@
+import { clsx } from 'clsx';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useContext } from 'react';
@@ -11,10 +12,10 @@ function SidebarItem(props) {
   return (
     <Link href={href} target={isExternal ? '_blank' : undefined}>
       <div
-        className={`${
-          router.asPath === href ? `bg-neutral-100` : `bg-white`
-        } flex flex-row items-center rounded-md p-sm cursor-pointer hover:bg-neutral-100
-        `}
+        className={clsx(
+          router.asPath === href ? 'bg-neutral-100' : 'bg-white',
+          'flex cursor-pointer flex-row items-center rounded-md p-2 hover:bg-neutral-100'
+        )}
         onClick={() => {
           if (!isExternal) {
             setIsOpen(false);

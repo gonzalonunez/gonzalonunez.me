@@ -317,10 +317,10 @@ export default function Reading() {
         A list of my favorite authors, books, essays, and collected works. The
         overwhelming majority of what I read does not make it onto this list.
         Updated yearly, new entries marked in green{' '}
-        <span className='text-neutral-400'>[</span>
+        <span className='text-zinc-400'>[</span>
         &nbsp;
         <span className='align-text-middle text-green-500'>•</span>&nbsp;
-        <span className='text-neutral-400'>]</span>
+        <span className='text-zinc-400'>]</span>
       </p>
       <ListItems title='Philosophy / Politics' items={content['philosophy']} />
       <ListItems title='Religion' items={content['religion']} />

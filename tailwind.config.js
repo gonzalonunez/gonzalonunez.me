@@ -10,17 +10,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        rewind: '#7A3BDA',
+        rewind: '#7A3BDA'
       },
       fontFamily: {
         body: ['var(--font-inter)', ...defaultTheme.fontFamily.sans],
         title: ['var(--font-lora)', ...defaultTheme.fontFamily.serif]
-      },
-      spacing: {
-        sm: '8px',
-        md: '16px',
-        lg: '24px',
-        xl: '48px'
       }
     }
   },
