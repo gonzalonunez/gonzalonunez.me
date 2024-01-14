@@ -10,9 +10,9 @@ function Sidebar() {
     <nav
       className={`${
         isOpen ? 'absolute translate-x-0' : 'absolute -translate-x-full'
-      } p-md h-screen w-64 border-r bg-white transition-transform`}
+      } h-screen w-64 border-r bg-white p-4 transition-transform`}
     >
-      <div className='pb-sm'>
+      <div className='pb-4'>
         <IconButton
           name='window'
           onClick={() => {
@@ -20,7 +20,7 @@ function Sidebar() {
           }}
         />
       </div>
-      <h1 className='font-title mb-md text-2xl font-normal'>Gonzalo Nuñez</h1>
+      <h1 className='font-title mb-4 text-2xl font-normal'>Gonzalo Nuñez</h1>
       <div className='flex flex-col space-y-[4px]'>
         <SidebarItem href='/' isExternal={false} title='About' />
         <SidebarItem href='/reading' isExternal={false} title='Reading' />

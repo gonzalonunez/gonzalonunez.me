@@ -7,6 +7,7 @@ function NavigationBar(props) {
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleScroll = () => {
+    console.log(window.pageYOffset);
     const position = window.pageYOffset;
     setScrollPosition(position);
   };
@@ -22,7 +23,7 @@ function NavigationBar(props) {
     <div
       className={`${
         scrollPosition > 0 ? 'border-b' : ''
-      } flex flex-row p-md bg-white`}
+      } sticky top-0 flex flex-row bg-white p-4`}
     >
       <IconButton
         name='window'

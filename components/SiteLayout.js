@@ -1,6 +1,8 @@
-import { Inter, Lora } from "next/font/google";
+import { clsx } from 'clsx';
+import { Inter, Lora } from 'next/font/google';
 import NavigationBar from './NavigationBar';
 import Sidebar from './Sidebar';
+import SidebarOverlay from './SidebarOverlay';
 
 const inter = Inter({
   display: 'swap',
@@ -16,14 +18,21 @@ const lora = Lora({
 
 function SiteLayout(props) {
   return (
-    <main className={`${lora.variable} ${inter.variable}`}>
-      <nav className='fixed top-0 w-full z-10'>
-        <div className='fixed z-50'>
-          <Sidebar />
-        </div>
+    <main
+      className={clsx(
+        'flex h-screen flex-col overflow-hidden',
+        lora.variable,
+        inter.variable
+      )}
+    >
+      <div className='absolute inset-y-0 left-0 z-50 flex grow flex-col md:relative'>
+        <Sidebar />
+      </div>
+      <div className='relative flex h-screen grow flex-col overflow-y-auto'>
+        <SidebarOverlay />
         <NavigationBar />
-      </nav>
-      <div className='container h-screen mt-14'>{props.children}</div>
+        {props.children}
+      </div>
     </main>
   );
 }

@@ -31,11 +31,16 @@ export default function About() {
   return (
     <Article title='About'>
       <p>
-        <span className='font-semibold'>Hi, I'm Gonzalo.</span> I think about
-        art, culture, startups, and philosophy. I also write software, mostly as part of my day job at <a className='text-rewind' href='https://rewind.ai'>Rewind</a>.
+        <span className='text-pretty font-semibold'>Hi, I'm Gonzalo.</span> I
+        think about art, culture, startups, and philosophy. I also write
+        software, mostly as part of my day job at{' '}
+        <a className='text-rewind' href='https://rewind.ai'>
+          Rewind
+        </a>
+        .
       </p>
       <ListItems title='Essays' items={essays}>
-        <div className='text-xs text-neutral-400 mt-[-4px] mb-[-4px]'>
+        <div className='mb-[-4px] mt-[-4px] text-xs text-neutral-400'>
           Read more at{' '}
           <a href='https://gonzalonunez.substack.com' target='_blank'>
             A Work in Progress

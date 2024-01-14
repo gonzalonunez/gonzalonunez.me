@@ -13,7 +13,7 @@ function SidebarItem(props) {
       <div
         className={`${
           router.asPath === href ? `bg-neutral-100` : `bg-white`
-        } flex flex-row items-center rounded-md p-sm cursor-pointer hover:bg-neutral-100
+        } flex cursor-pointer flex-row items-center rounded-md p-2 hover:bg-neutral-100
         `}
         onClick={() => {
           if (!isExternal) {
