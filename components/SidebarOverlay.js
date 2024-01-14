@@ -7,7 +7,7 @@ export default function SidebarOverlay() {
   return (
     <div
       className={clsx(
-        'absolute z-40 h-screen w-screen bg-gray-100/90 transition-opacity',
+        'absolute top-0 z-40 h-screen w-screen bg-gray-100/90 transition-opacity',
         isOpen ? 'opacity-100' : 'pointer-events-none opacity-0'
       )}
       onClick={() => {

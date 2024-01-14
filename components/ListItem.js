@@ -11,7 +11,7 @@ export function ListItem(props) {
       ) : (
         <div className='select-none font-medium'>{props.item.title}</div>
       )}
-      <div className='prose mr-6 mt-1 select-none text-xs text-neutral-400 sm:text-justify'>
+      <div className='prose mr-6 mt-1 select-none text-xs text-zinc-400 sm:text-justify'>
         <b>{props.item.subtitle && `${props.item.subtitle}`}</b>
         <b>{props.item.subtitle && props.item.details && ` · `}</b>
         {props.item.details}

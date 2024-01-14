@@ -10,7 +10,7 @@ function Sidebar() {
     <nav
       className={clsx(
         isOpen ? 'absolute translate-x-0' : 'absolute -translate-x-full',
-        'h-screen w-64 border-r bg-white p-4 transition-transform'
+        'z-50 h-screen w-64 border-r bg-white p-4 transition-transform'
       )}
     >
       <div className='pb-4'>

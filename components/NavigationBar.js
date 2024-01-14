@@ -1,31 +1,46 @@
 import { clsx } from 'clsx';
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect, useRef, useState } from 'react';
 import IconButton from './IconButton';
 import { NavigationContext } from './providers/Navigation';
 
-function NavigationBar(props) {
+function NavigationBar({ containerRef, contentRef }) {
+  const ref = useRef(0);
   const { isOpen, setIsOpen } = useContext(NavigationContext);
+  const [navBarHeight, setNavBarHeight] = useState(0);
   const [scrollPosition, setScrollPosition] = useState(0);
 
-  const handleScroll = () => {
-    console.log(window.pageYOffset);
-    const position = window.pageYOffset;
-    setScrollPosition(position);
+  const updateScrollPosition = () => {
+    const rect = contentRef.current?.getBoundingClientRect();
+    setScrollPosition(rect.y);
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll, { passive: true });
+    containerRef?.current?.addEventListener('scroll', updateScrollPosition, {
+      passive: true
+    });
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      containerRef?.current?.removeEventListener(
+        'scroll',
+        updateScrollPosition
+      );
     };
   }, []);
+
+  useEffect(() => {
+    updateScrollPosition();
+  }, [contentRef.current]);
+
+  useEffect(() => {
+    setNavBarHeight(ref.current?.getBoundingClientRect().height);
+  }, [ref.current]);
 
   return (
     <div
       className={clsx(
-        scrollPosition > 0 ? 'border-b' : '',
-        'sticky top-0 flex flex-row bg-white p-4'
+        scrollPosition < navBarHeight ? 'border-b' : '',
+        'sticky top-0 z-30 flex max-h-14 flex-row bg-white p-4'
       )}
+      ref={ref}
     >
       <IconButton
         name='window'

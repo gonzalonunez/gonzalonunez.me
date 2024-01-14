@@ -40,7 +40,7 @@ export default function About() {
         .
       </p>
       <ListItems title='Essays' items={essays}>
-        <div className='mb-[-4px] mt-[-4px] text-xs text-neutral-400'>
+        <div className='mb-[-4px] mt-[-4px] text-xs text-zinc-400'>
           Read more at{' '}
           <a href='https://gonzalonunez.substack.com' target='_blank'>
             A Work in Progress
