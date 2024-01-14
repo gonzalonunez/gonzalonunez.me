@@ -1,3 +1,4 @@
+import { clsx } from 'clsx';
 import { useContext, useEffect, useState } from 'react';
 import IconButton from './IconButton';
 import { NavigationContext } from './providers/Navigation';
@@ -21,9 +22,10 @@ function NavigationBar(props) {
 
   return (
     <div
-      className={`${
-        scrollPosition > 0 ? 'border-b' : ''
-      } sticky top-0 flex flex-row bg-white p-4`}
+      className={clsx(
+        scrollPosition > 0 ? 'border-b' : '',
+        'sticky top-0 flex flex-row bg-white p-4'
+      )}
     >
       <IconButton
         name='window'

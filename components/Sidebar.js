@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { clsx } from 'clsx';
 import { useContext } from 'react';
 import IconButton from './IconButton';
 import { NavigationContext } from './providers/Navigation';
@@ -8,9 +8,10 @@ function Sidebar() {
   const { isOpen, setIsOpen } = useContext(NavigationContext);
   return (
     <nav
-      className={`${
-        isOpen ? 'absolute translate-x-0' : 'absolute -translate-x-full'
-      } h-screen w-64 border-r bg-white p-4 transition-transform`}
+      className={clsx(
+        isOpen ? 'absolute translate-x-0' : 'absolute -translate-x-full',
+        'h-screen w-64 border-r bg-white p-4 transition-transform'
+      )}
     >
       <div className='pb-4'>
         <IconButton
