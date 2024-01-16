@@ -3,44 +3,29 @@ import { useContext, useEffect, useRef, useState } from 'react';
 import IconButton from './IconButton';
 import { NavigationContext } from './providers/Navigation';
 
-function NavigationBar({ containerRef, contentRef }) {
-  const ref = useRef(0);
+function NavigationBar() {
   const { isOpen, setIsOpen } = useContext(NavigationContext);
-  const [navBarHeight, setNavBarHeight] = useState(0);
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const updateScrollPosition = () => {
-    const rect = contentRef.current?.getBoundingClientRect();
-    setScrollPosition(rect.y);
+    setScrollPosition(window.scrollY);
   };
 
   useEffect(() => {
-    containerRef?.current?.addEventListener('scroll', updateScrollPosition, {
+    window.addEventListener('scroll', updateScrollPosition, {
       passive: true
     });
     return () => {
-      containerRef?.current?.removeEventListener(
-        'scroll',
-        updateScrollPosition
-      );
+      window.removeEventListener('scroll', updateScrollPosition);
     };
   }, []);
-
-  useEffect(() => {
-    updateScrollPosition();
-  }, [contentRef.current]);
-
-  useEffect(() => {
-    setNavBarHeight(ref.current?.getBoundingClientRect().height);
-  }, [ref.current]);
 
   return (
     <div
       className={clsx(
-        scrollPosition < navBarHeight ? 'border-b' : '',
-        'sticky top-0 z-30 flex max-h-14 flex-row bg-white p-4'
+        scrollPosition > 0 ? 'border-border-color' : 'border-transparent',
+        'sticky top-0 z-30 flex max-h-14 flex-row border-b bg-white p-4 transition-colors ease-out'
       )}
-      ref={ref}
     >
       <IconButton
         name='window'

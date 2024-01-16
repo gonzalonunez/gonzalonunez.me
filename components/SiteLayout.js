@@ -1,5 +1,5 @@
 import { clsx } from 'clsx';
-import { useEffect, useRef, useState } from 'react';
+import { useRef } from 'react';
 import { Inter, Lora } from 'next/font/google';
 import NavigationBar from './NavigationBar';
 import Sidebar from './Sidebar';
@@ -18,27 +18,12 @@ const lora = Lora({
 });
 
 function SiteLayout(props) {
-  const containerRef = useRef(0);
-  const contentRef = useRef(0);
   return (
-    <main
-      className={clsx(
-        'flex h-screen flex-col overflow-hidden',
-        lora.variable,
-        inter.variable
-      )}
-    >
-      <div className='absolute inset-y-0 left-0 z-50 flex grow flex-col md:relative'>
-        <Sidebar />
-      </div>
-      <div
-        className='flex h-screen grow flex-col overflow-y-scroll'
-        ref={containerRef}
-      >
-        <SidebarOverlay />
-        <NavigationBar containerRef={containerRef} contentRef={contentRef} />
-        <div ref={contentRef}>{props.children}</div>
-      </div>
+    <main className={clsx('bg-white', lora.variable, inter.variable)}>
+      <Sidebar />
+      <SidebarOverlay />
+      <NavigationBar />
+      {props.children}
     </main>
   );
 }
