@@ -9,7 +9,7 @@ function Sidebar() {
   return (
     <aside
       className={clsx(
-        'fixed inset-y-0 left-0 z-50 w-64 border-r bg-white px-4 pb-0 pt-0 transition-transform',
+        'fixed left-0 top-0 z-50 h-screen w-64 border-r bg-white px-4 pb-0 pt-0 transition-transform',
         isOpen ? 'translate-x-0' : '-translate-x-full'
       )}
     >
