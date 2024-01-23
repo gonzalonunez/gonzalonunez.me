@@ -1,15 +1,9 @@
 import { clsx } from 'clsx';
 import { useRef } from 'react';
-import { Inter, Lora } from 'next/font/google';
+import { Lora } from 'next/font/google';
 import NavigationBar from './NavigationBar';
 import Sidebar from './Sidebar';
 import SidebarOverlay from './SidebarOverlay';
-
-const inter = Inter({
-  display: 'swap',
-  subsets: ['latin'],
-  variable: '--font-inter'
-});
 
 const lora = Lora({
   display: 'swap',
@@ -19,7 +13,7 @@ const lora = Lora({
 
 function SiteLayout(props) {
   return (
-    <main className={clsx('bg-white', lora.variable, inter.variable)}>
+    <main className={clsx('bg-white', lora.variable)}>
       <Sidebar />
       <SidebarOverlay />
       <NavigationBar />
