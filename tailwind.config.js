@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+import { fontFamily } from 'tailwindcss/defaultTheme';
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -13,8 +13,7 @@ module.exports = {
         rewind: '#7A3BDA'
       },
       fontFamily: {
-        body: ['var(--font-inter)', ...defaultTheme.fontFamily.sans],
-        title: ['var(--font-lora)', ...defaultTheme.fontFamily.serif]
+        title: ['var(--font-lora)', ...fontFamily.serif]
       }
     }
   },

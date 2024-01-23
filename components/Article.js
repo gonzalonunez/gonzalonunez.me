@@ -6,9 +6,7 @@ export default function Article(props) {
           <h1 className='font-title mb-0 text-2xl'>{props.title}</h1>
         )}
         {props.subtitle && (
-          <p className='font-body mb-0 mt-1 text-xs text-zinc-400'>
-            {props.subtitle}
-          </p>
+          <p className='mb-0 mt-1 text-xs text-zinc-400'>{props.subtitle}</p>
         )}
         {props.children}
       </article>
