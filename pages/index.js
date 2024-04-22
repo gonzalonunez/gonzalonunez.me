@@ -34,8 +34,8 @@ export default function About() {
         <span className='text-pretty font-semibold'>Hi, I'm Gonzalo.</span> I
         think about art, culture, startups, and philosophy. I also write
         software, mostly as part of my day job at{' '}
-        <a className='text-rewind' href='https://rewind.ai'>
-          Rewind
+        <a className='text-rewind' href='https://limitless.ai'>
+          Limitless
         </a>
         .
       </p>
