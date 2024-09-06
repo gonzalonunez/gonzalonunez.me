@@ -33,11 +33,7 @@ export default function About() {
       <p>
         <span className='text-pretty font-semibold'>Hi, I'm Gonzalo.</span> I
         think about art, culture, startups, and philosophy. I also write
-        software, mostly as part of my day job at{' '}
-        <a className='text-rewind' href='https://limitless.ai'>
-          Limitless
-        </a>
-        .
+        software.
       </p>
       <ListItems title='Essays' items={essays}>
         <div className='mb-[-4px] mt-[-4px] text-xs text-zinc-400'>
