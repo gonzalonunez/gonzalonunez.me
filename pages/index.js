@@ -32,7 +32,7 @@ export default function About() {
     <Article title='About'>
       <p>
         <span className='text-pretty font-semibold'>Hi, I'm Gonzalo.</span> I
-        think about art, culture, startups, and philosophy. I also write
+        think about art, culture, technology, and philosophy. I also write
         software.
       </p>
       <ListItems title='Essays' items={essays}>
