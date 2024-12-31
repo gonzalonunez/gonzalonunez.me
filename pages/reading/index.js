@@ -96,7 +96,7 @@ export default function Reading() {
       },
       {
         title: 'All Desire is a Desire for Being',
-        subtitle: 'René Girard (Haven)',
+        subtitle: 'René Girard (Cynthia L. Haven)',
         details:
           'Nietzsche will make you mean, Dostoevsky will save you, and then Girard will make it all real. By far the most impactful book of 2024 for me. I am not sure why I held off on Girard for so long, perhaps because I thought I already knew what I would find. No matter what you think you know of Girard, nothing will replace seeing for yourself exactly what it is that he had to say. Also, another instance where an author being a contemporary of ours helps with the overall accessibility of his work.',
         href: 'https://a.co/d/hohcOcc',
