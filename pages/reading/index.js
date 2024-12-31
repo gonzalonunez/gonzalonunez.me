@@ -58,6 +58,22 @@ export default function Reading() {
         details:
           'An interesting little book, certainly one of the most thoughtful critiques of modernity that I have ever come across. Rhymes with Houellebecq in many ways.',
         href: 'https://a.co/d/0A35M9G',
+        new: false
+      },
+      {
+        title: 'Democracy: The God That Failed',
+        subtitle: 'Hans-Hermann Hoppe',
+        details:
+          'Another world-shattering book, moreso than any other political work I\'ve ever read. Written in 2001, does not pose a challenge to the contemporary reader. Hoppe is the only person who\'s been right to say that "Fukuyama was wrong." This book may have the longest half-life of this entire list.',
+        href: 'https://a.co/d/9ZRmlk8',
+        new: true
+      },
+      {
+        title: 'On Heroes, Hero-Worship, and the Heroic in History',
+        subtitle: 'Thomas Carlyle',
+        details:
+          'If you enjoy Nietzsche, you will enjoy Carlyle. No matter what you think you know of "the great man theory of history", there are truths to be found here.',
+        href: 'https://a.co/d/7hwGZwL',
         new: true
       }
     ],
@@ -68,7 +84,7 @@ export default function Reading() {
         details:
           'It is impossible to read Dominion and not come out the other side a completely different person. Whether you are religious or not, this is an earth-shattering book and one that will surely be discussed for decades to come, maybe even centuries. Also, easy to read and very much written for the modern reader.',
         href: 'https://a.co/d/gsnxzUc',
-        new: true
+        new: false
       },
       {
         title: 'Confessions',
@@ -76,6 +92,22 @@ export default function Reading() {
         details:
           'Somehow ten-times more relatable than I had originally anticipated. A beautiful text that should accompany every young Catholic, especially those who are accustomed to the modern habit of taking history for granted.',
         href: 'https://a.co/d/fDBP6vB',
+        new: false
+      },
+      {
+        title: 'All Desire is a Desire for Being',
+        subtitle: 'René Girard (Cynthia L. Haven)',
+        details:
+          'Nietzsche will make you mean, Dostoevsky will save you, and then Girard will make it all real. I am not sure why I held off on Girard for so long, perhaps because I thought I already knew what I would find. No matter what you think you know of Girard, nothing will replace seeing for yourself. Another instance where the author being a contemporary of ours helps with the overall accessibility of his work.',
+        href: 'https://a.co/d/hohcOcc',
+        new: true
+      },
+      {
+        title: 'When These Things Begin: Conversations with Michel Treguer',
+        subtitle: 'René Girard',
+        details:
+          "A really tremendous interview with a seminal thinker. Discovered because one chapter is featured in Haven's book. Serves as another great introduction to Girard, before moving on to his denser work.",
+        href: 'https://a.co/d/9Kq9gPg',
         new: true
       }
     ],
@@ -131,7 +163,7 @@ export default function Reading() {
         details:
           "A gripping first-hand account of Cortes' conquest of the Aztec empire, perhaps the most incredible tale that history has to offer, by one of his own soldiers. Also the best primary source I have ever come across, and certainly the easiest to read as well.",
         href: 'https://a.co/d/f75VqQ0',
-        new: true
+        new: false
       },
       {
         title: 'Cuba: A History',
@@ -139,7 +171,7 @@ export default function Reading() {
         details:
           "Published in 1971 and absolutely massive in scope, Thomas starts from the English occupation of Havana in 1762 and ends with the Cuban Missile Crisis. A nuanced and neutral account anchored in a liberal historian's point of view, although Thomas' labor sympathies occasionally shine through. Serves as a great jumping off point into further research with its deep bibliography.",
         href: 'https://a.co/d/ch9a6cm',
-        new: true
+        new: false
       },
       {
         title: 'Cuba',
@@ -161,7 +193,7 @@ export default function Reading() {
         details:
           "Do not make the same mistake that I did and think that you don't need to read this. Silicon Valley could really use another Jobs. This is Isaacson at his best.",
         href: 'https://a.co/d/3EacMqw',
-        new: true
+        new: false
       },
       {
         title: 'Leonardo da Vinci',
@@ -211,6 +243,22 @@ export default function Reading() {
         details:
           "Allegedly a work of fiction but not really. A great look into Hemingway's time in Paris with fun anecdotes about Gertude Stein and F. Scott Fitzgerald.",
         href: 'https://www.amazon.com/Moveable-Feast-Restored-Ernest-Hemingway/dp/143918271X'
+      },
+      {
+        title: 'Res Gestae Divi Augusti',
+        subtitle: 'Augustus (Alison E. Cooley)',
+        details:
+          'A neat window into the Ancient Roman culture + ethics through the mind of a great leader. Best preceded by Coulanges\' "The Ancient City".',
+        href: 'https://a.co/d/ewP3DvT',
+        new: true
+      },
+      {
+        title: 'The Ancient City',
+        subtitle: 'Fustel De Coulanges',
+        details:
+          'An absolutely monumental work of anthropology. Makes sense why Arendt relied on it so heavily.Somehow allows you to draw a line all of the way back to Ancient Greece and Rome while also showing you just how much of the ancient world is utterly alien to anyone alive today. The Ancient Romans were right about ancestor worship.',
+        href: 'https://a.co/d/4HS3khS',
+        new: true
       }
     ],
     essays: [
@@ -304,14 +352,14 @@ export default function Reading() {
         details:
           "A wonderful collection of poems from Cuba's most heroic figure. See also: Ismaelillo.",
         href: 'https://a.co/d/1FwRFbs',
-        new: true
+        new: false
       }
     ]
   };
   return (
     <Article
       title='Reading'
-      subtitle='Last updated on Sunday December 10, 2023'
+      subtitle='Last updated on Sunday December 30, 2024'
     >
       <p>
         A list of my favorite authors, books, essays, and collected works. The

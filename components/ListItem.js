@@ -5,13 +5,13 @@ export function ListItem(props) {
   return (
     <li className={itemClassName}>
       {props.item.href ? (
-        <a className='select-none' href={props.item.href} target='_blank'>
+        <a href={props.item.href} target='_blank'>
           {props.item.title}
         </a>
       ) : (
-        <div className='select-none font-medium'>{props.item.title}</div>
+        <div className='font-medium'>{props.item.title}</div>
       )}
-      <div className='prose mr-6 mt-1 select-none text-xs text-zinc-400 sm:text-justify'>
+      <div className='prose mr-6 mt-1  text-xs text-zinc-400 sm:text-justify'>
         <b>{props.item.subtitle && `${props.item.subtitle}`}</b>
         <b>{props.item.subtitle && props.item.details && ` · `}</b>
         {props.item.details}
