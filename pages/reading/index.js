@@ -152,7 +152,7 @@ export default function Reading() {
           'Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values',
         subtitle: 'Robert Pirsig',
         details:
-          "An enjoyable read. Another good gateway drug to get you back into fiction if that's what your looking for.",
+          "An enjoyable read. Another good gateway drug to get you back into fiction if that's what you're looking for.",
         href: 'https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060839872'
       }
     ],
@@ -248,7 +248,7 @@ export default function Reading() {
         title: 'Res Gestae Divi Augusti',
         subtitle: 'Augustus (Alison E. Cooley)',
         details:
-          'A neat window into the Ancient Roman culture + ethics through the mind of a great leader. Best preceded by Coulanges\' "The Ancient City".',
+          'A neat window into Ancient Roman culture and ethics through the mind of a great leader. Best preceded by Coulanges\' "The Ancient City".',
         href: 'https://a.co/d/ewP3DvT',
         new: true
       },
@@ -256,7 +256,7 @@ export default function Reading() {
         title: 'The Ancient City',
         subtitle: 'Fustel De Coulanges',
         details:
-          'An absolutely monumental work of anthropology. Makes sense why Arendt relied on it so heavily.Somehow allows you to draw a line all of the way back to Ancient Greece and Rome while also showing you just how much of the ancient world is utterly alien to anyone alive today. The Ancient Romans were right about ancestor worship.',
+          'An absolutely monumental work of anthropology. Discovered by way of Hannah Arendt. Somehow allows you to draw a line all of the way back to Ancient Greece and Rome while also showing you just how much of the ancient world is utterly alien to us today. The Ancient Romans were right about ancestor worship.',
         href: 'https://a.co/d/4HS3khS',
         new: true
       }
