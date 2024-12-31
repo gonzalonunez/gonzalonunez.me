@@ -98,7 +98,7 @@ export default function Reading() {
         title: 'All Desire is a Desire for Being',
         subtitle: 'René Girard (Cynthia L. Haven)',
         details:
-          'Nietzsche will make you mean, Dostoevsky will save you, and then Girard will make it all real. By far the most impactful book of 2024 for me. I am not sure why I held off on Girard for so long, perhaps because I thought I already knew what I would find. No matter what you think you know of Girard, nothing will replace seeing for yourself exactly what it is that he had to say. Also, another instance where an author being a contemporary of ours helps with the overall accessibility of his work.',
+          'Nietzsche will make you mean, Dostoevsky will save you, and then Girard will make it all real. I am not sure why I held off on Girard for so long, perhaps because I thought I already knew what I would find. No matter what you think you know of Girard, nothing will replace seeing for yourself. Another instance where the author being a contemporary of ours helps with the overall accessibility of his work.',
         href: 'https://a.co/d/hohcOcc',
         new: true
       },
@@ -106,7 +106,7 @@ export default function Reading() {
         title: 'When These Things Begin: Conversations with Michel Treguer',
         subtitle: 'René Girard',
         details:
-          "A really tremendous interview with a seminal thinker. One chapter is featured in Haven's book and here you'll find the rest of the interview. Serves as another great introduction to Girard, before moving on to his denser work.",
+          "A really tremendous interview with a seminal thinker. Discovered because one chapter is featured in Haven's book. Serves as another great introduction to Girard, before moving on to his denser work.",
         href: 'https://a.co/d/9Kq9gPg',
         new: true
       }
@@ -248,7 +248,7 @@ export default function Reading() {
         title: 'Res Gestae Divi Augusti',
         subtitle: 'Augustus (Alison E. Cooley)',
         details:
-          'A neat window into the Ancient Roman culture + ethics through the mind of a great leader. Best preceded by Coulanges\' "The Ancient City", which provides great context for the text.',
+          'A neat window into the Ancient Roman culture + ethics through the mind of a great leader. Best preceded by Coulanges\' "The Ancient City".',
         href: 'https://a.co/d/ewP3DvT',
         new: true
       },
@@ -256,7 +256,7 @@ export default function Reading() {
         title: 'The Ancient City',
         subtitle: 'Fustel De Coulanges',
         details:
-          'An absolutely monumental work of anthropology. Somehow allows you to draw a line all of the way back to Ancient Greece and Rome while also showing you just how much of the ancient world is utterly alien to anyone alive today. If I could only take away a single lesson: the ancient Romans were right about ancestor worship.',
+          'An absolutely monumental work of anthropology. Makes sense why Arendt relied on it so heavily.Somehow allows you to draw a line all of the way back to Ancient Greece and Rome while also showing you just how much of the ancient world is utterly alien to anyone alive today. The Ancient Romans were right about ancestor worship.',
         href: 'https://a.co/d/4HS3khS',
         new: true
       }
