@@ -154,6 +154,13 @@ export default function Reading() {
         details:
           "An enjoyable read. Another good gateway drug to get you back into fiction if that's what you're looking for.",
         href: 'https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060839872'
+      },
+      {
+        title: 'Brave New World',
+        subtitle: 'Aldous Huxley',
+        details:
+          "Needs no introduction. Paints a vision of the future worth holding onto in the back of your mind, on equal footing with Orwell's.",
+        href: 'https://a.co/d/e0HQlhY'
       }
     ],
     nonfiction: [
